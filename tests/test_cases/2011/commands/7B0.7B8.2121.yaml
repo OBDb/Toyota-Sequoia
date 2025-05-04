@@ -5,6 +5,12 @@ test_cases:
 - response: 7B803612100
   expected_values:
     TOYOTA_VSS: 0
+- response: 7B803612101
+  expected_values:
+    TOYOTA_VSS: 1.28
+- response: 7B803612102
+  expected_values:
+    TOYOTA_VSS: 2.56
 - response: 7B803612103
   expected_values:
     TOYOTA_VSS: 3.84
@@ -20,6 +26,9 @@ test_cases:
 - response: 7B803612109
   expected_values:
     TOYOTA_VSS: 11.52
+- response: 7B80361210A
+  expected_values:
+    TOYOTA_VSS: 12.8
 - response: 7B80361210B
   expected_values:
     TOYOTA_VSS: 14.08
@@ -50,6 +59,9 @@ test_cases:
 - response: 7B803612115
   expected_values:
     TOYOTA_VSS: 26.88
+- response: 7B803612116
+  expected_values:
+    TOYOTA_VSS: 28.16
 - response: 7B803612117
   expected_values:
     TOYOTA_VSS: 29.44
@@ -125,6 +137,9 @@ test_cases:
 - response: 7B80361212F
   expected_values:
     TOYOTA_VSS: 60.16
+- response: 7B803612130
+  expected_values:
+    TOYOTA_VSS: 61.44
 - response: 7B803612131
   expected_values:
     TOYOTA_VSS: 62.72
@@ -149,6 +164,9 @@ test_cases:
 - response: 7B803612138
   expected_values:
     TOYOTA_VSS: 71.68
+- response: 7B803612139
+  expected_values:
+    TOYOTA_VSS: 72.96
 - response: 7B80361213A
   expected_values:
     TOYOTA_VSS: 74.24
@@ -239,6 +257,9 @@ test_cases:
 - response: 7B803612157
   expected_values:
     TOYOTA_VSS: 111.36
+- response: 7B803612158
+  expected_values:
+    TOYOTA_VSS: 112.64
 - response: 7B803612159
   expected_values:
     TOYOTA_VSS: 113.92
@@ -278,12 +299,18 @@ test_cases:
 - response: 7B803612165
   expected_values:
     TOYOTA_VSS: 129.28
+- response: 7B803612166
+  expected_values:
+    TOYOTA_VSS: 130.56
 - response: 7B803612167
   expected_values:
     TOYOTA_VSS: 131.84
 - response: 7B803612168
   expected_values:
     TOYOTA_VSS: 133.12
+- response: 7B80361216A
+  expected_values:
+    TOYOTA_VSS: 135.68
 - response: 7B803612173
   expected_values:
     TOYOTA_VSS: 147.2
