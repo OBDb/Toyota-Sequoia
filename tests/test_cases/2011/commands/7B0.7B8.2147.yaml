@@ -5,6 +5,9 @@ test_cases:
 - response: 7B80761470000807FB5
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
+- response: 7B80761470000807FC4
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
 - response: 7B80761470000807FD3
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
@@ -29,6 +32,9 @@ test_cases:
 - response: 7B8076147000081801E
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
+- response: 7B8076147000081802D
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
 - response: 7B8076147000083811D
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
@@ -50,7 +56,16 @@ test_cases:
 - response: 7B807614700027F7FA6
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
+- response: 7B80761470002807FE2
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
+- response: 7B80761470003807FE2
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
 - response: 7B80761470004808000
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
+- response: 7B8076147000480800F
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
 - response: 7B80761470005807FF1
@@ -71,6 +86,9 @@ test_cases:
 - response: 7B8076147000880800F
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
+- response: 7B8076147000A8180C3
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
 - response: 7B807614700F2808000
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
@@ -86,10 +104,16 @@ test_cases:
 - response: 7B807614700F680800F
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
+- response: 7B807614700F880802D
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
 - response: 7B807614700F880803C
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
 - response: 7B807614700F980799D
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
+- response: 7B807614700FA807FF1
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
 - response: 7B807614700FB807FF1
@@ -134,6 +158,9 @@ test_cases:
 - response: 7B807614700FD80800F
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
+- response: 7B807614700FD80801E
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
 - response: 7B807614700FD808087
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
@@ -161,10 +188,16 @@ test_cases:
 - response: 7B807614700FE80801E
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
+- response: 7B807614700FE808159
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
 - response: 7B807614700FF7F7FC4
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
 - response: 7B807614700FF7F7FE2
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
+- response: 7B807614700FF807FB5
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
 - response: 7B807614700FF807FC4
@@ -188,7 +221,19 @@ test_cases:
 - response: 7B807614700FF80802D
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
+- response: 7B807614700FF80803C
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
+- response: 7B807614700FF808078
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
+- response: 7B807614700FF81803C
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
 - response: 7B807614700FF8780E1
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
+- response: 7B80761470100807F97
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
 - response: 7B80761470100807FF1
@@ -206,6 +251,15 @@ test_cases:
 - response: 7B8076147010080804B
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
+- response: 7B80761470100808069
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
+- response: 7B8076147010082804B
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
+- response: 7B807614701017E7F4C
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
 - response: 7B80761470101808000
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
@@ -218,13 +272,22 @@ test_cases:
 - response: 7B8076147010280801E
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
+- response: 7B8076147010680801E
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
 - response: 7B807614701077F7E7A
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
 - response: 7B807614701F180802D
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
+- response: 7B807614701FA8282A3
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
 - response: 7B807614701FB7F7FE2
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
+- response: 7B807614701FB807F79
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
 - response: 7B807614701FC808000
@@ -242,16 +305,25 @@ test_cases:
 - response: 7B807614701FD80801E
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
+- response: 7B807614701FE807FF1
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
 - response: 7B807614701FE808000
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
 - response: 7B807614701FE80800F
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
+- response: 7B807614701FE80812C
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
 - response: 7B807614701FE81803C
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
 - response: 7B807614701FF807FB5
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
+- response: 7B807614701FF808000
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
 - response: 7B807614701FF80800F
@@ -272,6 +344,9 @@ test_cases:
 - response: 7B807614701FF8280E1
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
+- response: 7B807614701FF8382B2
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
 - response: 7B80761470200807FF1
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
@@ -282,6 +357,12 @@ test_cases:
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
 - response: 7B8076147020080801E
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
+- response: 7B8076147020081802D
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
+- response: 7B80761470201808000
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
 - response: 7B8076147020180802D
@@ -317,6 +398,9 @@ test_cases:
 - response: 7B807614702FD80800F
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
+- response: 7B807614702FD80801E
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
 - response: 7B807614702FE807FA6
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
@@ -326,10 +410,16 @@ test_cases:
 - response: 7B807614702FE80801E
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
+- response: 7B807614702FF808000
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
 - response: 7B807614702FF80800F
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
 - response: 7B807614702FF80802D
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
+- response: 7B807614702FF80813B
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
 - response: 7B8076147030081801E
@@ -344,6 +434,9 @@ test_cases:
 - response: 7B80761470304806F11
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
+- response: 7B80761470304C7701F
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
 - response: 7B807614703FB81803C
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
@@ -354,6 +447,9 @@ test_cases:
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
 - response: 7B807614703FF80801E
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
+- response: 7B80761470400838096
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
 - response: 7B80761470401828096
@@ -380,13 +476,22 @@ test_cases:
 - response: 7B807614705008280C3
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
+- response: 7B80761470502828096
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
 - response: 7B807614705028280B4
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
+- response: 7B807614705FE80803C
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
 - response: 7B80761470600807FF1
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
 - response: 7B8076147060480800F
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
+- response: 7B807614706FF8480F0
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
 - response: 7B807614707038A8528
@@ -404,13 +509,25 @@ test_cases:
 - response: 7B80761470907988D7A
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
+- response: 7B80761470A009087BC
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
 - response: 7B80761470FF88A8339
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
+- response: 7B8076147F1FE717C8B
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
 - response: 7B8076147F5FC7B7F10
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
+- response: 7B8076147F607707B23
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
 - response: 7B8076147F703757CF4
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
+- response: 7B8076147F8F97D7F01
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
 - response: 7B8076147FA017D7F88
@@ -455,6 +572,9 @@ test_cases:
 - response: 7B8076147FDFE7D7F6A
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
+- response: 7B8076147FDFE7E7FA6
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
 - response: 7B8076147FDFE808000
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
@@ -491,6 +611,9 @@ test_cases:
 - response: 7B8076147FEFE807FE2
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
+- response: 7B8076147FEFF807F88
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
 - response: 7B8076147FEFF807F97
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
@@ -512,13 +635,22 @@ test_cases:
 - response: 7B8076147FF00807FF1
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
+- response: 7B8076147FF00808000
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
 - response: 7B8076147FF017F7FD3
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
+- response: 7B8076147FF01807FB5
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
 - response: 7B8076147FF01807FD3
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
 - response: 7B8076147FF01808000
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
+- response: 7B8076147FF027D7F01
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
 - response: 7B8076147FF0280800F
@@ -530,13 +662,25 @@ test_cases:
 - response: 7B8076147FF07808069
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
+- response: 7B8076147FF08807FC4
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
+- response: 7B8076147FF0D808000
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
 - response: 7B8076147FFF4808000
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
+- response: 7B8076147FFFB807F3D
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
 - response: 7B8076147FFFD807E20
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
 - response: 7B8076147FFFD80800F
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
+- response: 7B8076147FFFE807FE2
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
 - response: 7B8076147FFFE807FF1
@@ -555,6 +699,9 @@ test_cases:
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
 - response: 7B8076147FFFF80800F
+  expected_values:
+    TOYOTA_STEER_ANGLE: -1000
+- response: 7B8076147FFFF80801E
   expected_values:
     TOYOTA_STEER_ANGLE: -1000
 - response: 7B8076147FFFF8179BB
