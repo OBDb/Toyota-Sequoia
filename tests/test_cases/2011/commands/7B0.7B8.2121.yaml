@@ -14,9 +14,15 @@ test_cases:
 - response: 7B803612103
   expected_values:
     TOYOTA_VSS_V2: 3.84
+- response: 7B803612104
+  expected_values:
+    TOYOTA_VSS_V2: 5.12
 - response: 7B803612105
   expected_values:
     TOYOTA_VSS_V2: 6.4
+- response: 7B803612106
+  expected_values:
+    TOYOTA_VSS_V2: 7.68
 - response: 7B803612107
   expected_values:
     TOYOTA_VSS_V2: 8.96
@@ -38,6 +44,9 @@ test_cases:
 - response: 7B80361210D
   expected_values:
     TOYOTA_VSS_V2: 16.64
+- response: 7B80361210E
+  expected_values:
+    TOYOTA_VSS_V2: 17.92
 - response: 7B80361210F
   expected_values:
     TOYOTA_VSS_V2: 19.2

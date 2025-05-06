@@ -12,9 +12,164 @@ test_cases:
     TOYOTA_FLI_VOL: 0
 - response: |-
     7C8037F2178
+    7C803612927
+  expected_values:
+    TOYOTA_FLI_VOL: 19.5
+- response: |-
+    7C8037F2178
+    7C80361292B
+  expected_values:
+    TOYOTA_FLI_VOL: 21.5
+- response: |-
+    7C8037F2178
+    7C80361292E
+  expected_values:
+    TOYOTA_FLI_VOL: 23
+- response: |-
+    7C8037F2178
+    7C803612930
+  expected_values:
+    TOYOTA_FLI_VOL: 24
+- response: |-
+    7C8037F2178
+    7C803612932
+  expected_values:
+    TOYOTA_FLI_VOL: 25
+- response: |-
+    7C8037F2178
+    7C803612933
+  expected_values:
+    TOYOTA_FLI_VOL: 25.5
+- response: |-
+    7C8037F2178
+    7C803612935
+  expected_values:
+    TOYOTA_FLI_VOL: 26.5
+- response: |-
+    7C8037F2178
+    7C803612936
+  expected_values:
+    TOYOTA_FLI_VOL: 27
+- response: |-
+    7C8037F2178
+    7C803612937
+  expected_values:
+    TOYOTA_FLI_VOL: 27.5
+- response: |-
+    7C8037F2178
+    7C803612938
+  expected_values:
+    TOYOTA_FLI_VOL: 28
+- response: |-
+    7C8037F2178
+    7C803612939
+  expected_values:
+    TOYOTA_FLI_VOL: 28.5
+- response: |-
+    7C8037F2178
+    7C80361293A
+  expected_values:
+    TOYOTA_FLI_VOL: 29
+- response: |-
+    7C8037F2178
+    7C80361293B
+  expected_values:
+    TOYOTA_FLI_VOL: 29.5
+- response: |-
+    7C8037F2178
+    7C80361293C
+  expected_values:
+    TOYOTA_FLI_VOL: 30
+- response: |-
+    7C8037F2178
+    7C80361293D
+  expected_values:
+    TOYOTA_FLI_VOL: 30.5
+- response: |-
+    7C8037F2178
+    7C80361293E
+  expected_values:
+    TOYOTA_FLI_VOL: 31
+- response: |-
+    7C8037F2178
+    7C80361293F
+  expected_values:
+    TOYOTA_FLI_VOL: 31.5
+- response: |-
+    7C8037F2178
+    7C803612940
+  expected_values:
+    TOYOTA_FLI_VOL: 32
+- response: |-
+    7C8037F2178
+    7C803612941
+  expected_values:
+    TOYOTA_FLI_VOL: 32.5
+- response: |-
+    7C8037F2178
+    7C803612942
+  expected_values:
+    TOYOTA_FLI_VOL: 33
+- response: |-
+    7C8037F2178
+    7C803612943
+  expected_values:
+    TOYOTA_FLI_VOL: 33.5
+- response: |-
+    7C8037F2178
+    7C803612944
+  expected_values:
+    TOYOTA_FLI_VOL: 34
+- response: |-
+    7C8037F2178
+    7C803612945
+  expected_values:
+    TOYOTA_FLI_VOL: 34.5
+- response: |-
+    7C8037F2178
+    7C803612946
+  expected_values:
+    TOYOTA_FLI_VOL: 35
+- response: |-
+    7C8037F2178
+    7C803612947
+  expected_values:
+    TOYOTA_FLI_VOL: 35.5
+- response: |-
+    7C8037F2178
+    7C803612948
+  expected_values:
+    TOYOTA_FLI_VOL: 36
+- response: |-
+    7C8037F2178
+    7C803612949
+  expected_values:
+    TOYOTA_FLI_VOL: 36.5
+- response: |-
+    7C8037F2178
+    7C80361294A
+  expected_values:
+    TOYOTA_FLI_VOL: 37
+- response: |-
+    7C8037F2178
+    7C80361294B
+  expected_values:
+    TOYOTA_FLI_VOL: 37.5
+- response: |-
+    7C8037F2178
+    7C80361294C
+  expected_values:
+    TOYOTA_FLI_VOL: 38
+- response: |-
+    7C8037F2178
     7C80361294D
   expected_values:
     TOYOTA_FLI_VOL: 38.5
+- response: |-
+    7C8037F2178
+    7C80361294E
+  expected_values:
+    TOYOTA_FLI_VOL: 39
 - response: |-
     7C8037F2178
     7C80361294F
@@ -27,9 +182,44 @@ test_cases:
     TOYOTA_FLI_VOL: 40
 - response: |-
     7C8037F2178
+    7C803612951
+  expected_values:
+    TOYOTA_FLI_VOL: 40.5
+- response: |-
+    7C8037F2178
+    7C803612952
+  expected_values:
+    TOYOTA_FLI_VOL: 41
+- response: |-
+    7C8037F2178
+    7C803612953
+  expected_values:
+    TOYOTA_FLI_VOL: 41.5
+- response: |-
+    7C8037F2178
+    7C803612954
+  expected_values:
+    TOYOTA_FLI_VOL: 42
+- response: |-
+    7C8037F2178
+    7C803612955
+  expected_values:
+    TOYOTA_FLI_VOL: 42.5
+- response: |-
+    7C8037F2178
     7C803612956
   expected_values:
     TOYOTA_FLI_VOL: 43
+- response: |-
+    7C8037F2178
+    7C803612957
+  expected_values:
+    TOYOTA_FLI_VOL: 43.5
+- response: |-
+    7C8037F2178
+    7C803612958
+  expected_values:
+    TOYOTA_FLI_VOL: 44
 - response: |-
     7C8037F2178
     7C803612959
@@ -45,6 +235,11 @@ test_cases:
     7C80361295B
   expected_values:
     TOYOTA_FLI_VOL: 45.5
+- response: |-
+    7C8037F2178
+    7C80361295C
+  expected_values:
+    TOYOTA_FLI_VOL: 46
 - response: |-
     7C8037F2178
     7C80361295D
