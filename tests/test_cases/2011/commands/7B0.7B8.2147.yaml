@@ -1,31 +1,50 @@
 command_id: 7B0.7B8.2147
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
-- response: 7B807614700007F7FA6
-  expected_values:
-    TOYOTA_STEER_ANGLE: -1000
-- response: 7B807614700008071FF
-  expected_values:
-    TOYOTA_STEER_ANGLE: -1000
-- response: 7B80761470000808000
-  expected_values:
-    TOYOTA_STEER_ANGLE: -1000
-- response: 7B807614700FF7F7FC4
-  expected_values:
-    TOYOTA_STEER_ANGLE: -1000
-- response: 7B807614703039867DC
-  expected_values:
-    TOYOTA_STEER_ANGLE: -1000
-- response: 7B80761470304C7701F
-  expected_values:
-    TOYOTA_STEER_ANGLE: -1000
-- response: 7B80761470E009D9167
-  expected_values:
-    TOYOTA_STEER_ANGLE: -1000
-- response: 7B8076147FAFF676E99
-  expected_values:
-    TOYOTA_STEER_ANGLE: -1000
-- response: 7B8076147FF007F7FB5
-  expected_values:
-    TOYOTA_STEER_ANGLE: -1000
+- expected_values:
+    TOYOTA_LAT_G: 0
+    TOYOTA_LNG_G: 0
+    TOYOTA_STEER_ANGLE: -360
+    TOYOTA_YAW_RATE: -12
+  response: 7B807614700007471F0
+- expected_values:
+    TOYOTA_LAT_G: 0
+    TOYOTA_LNG_G: 0
+    TOYOTA_STEER_ANGLE: -661.5
+    TOYOTA_YAW_RATE: -1
+  response: 7B807614700007F6629
+- expected_values:
+    TOYOTA_LAT_G: 0
+    TOYOTA_LNG_G: 0
+    TOYOTA_STEER_ANGLE: -358.5
+    TOYOTA_YAW_RATE: 0
+  response: 7B807614700008071FF
+- expected_values:
+    TOYOTA_LAT_G: 0
+    TOYOTA_LNG_G: 0
+    TOYOTA_STEER_ANGLE: 0
+    TOYOTA_YAW_RATE: 0
+  response: 7B80761470000808000
+- expected_values:
+    TOYOTA_LAT_G: 0
+    TOYOTA_LNG_G: 0
+    TOYOTA_STEER_ANGLE: 678
+    TOYOTA_YAW_RATE: 16
+  response: 7B80761470000909A7C
+- expected_values:
+    TOYOTA_LAT_G: 0
+    TOYOTA_LNG_G: -0.02
+    TOYOTA_STEER_ANGLE: 666
+    TOYOTA_YAW_RATE: -13
+  response: 7B807614700FF739A04
+- expected_values:
+    TOYOTA_LAT_G: -0.06
+    TOYOTA_LNG_G: -0.02
+    TOYOTA_STEER_ANGLE: 15
+    TOYOTA_YAW_RATE: 72
+  response: 7B8076147FDFFC88096
+- expected_values:
+    TOYOTA_LAT_G: -0.02
+    TOYOTA_LNG_G: 0
+    TOYOTA_STEER_ANGLE: -88.5
+    TOYOTA_YAW_RATE: -88
+  response: 7B8076147FF00287C8B
