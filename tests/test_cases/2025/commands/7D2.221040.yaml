@@ -1,8 +1,8 @@
-command_id: 7D2.7DA.221040
+command_id: 7D2.221040
 test_cases:
 - expected_values:
-    TOYOTA_TRANSAXLE_OIL_T: 86
-  response: 7DA0662104080C07E
+    TOYOTA_TRANSAXLE_OIL_T: 87
+  response: 7DA066210407F707F
 - expected_values:
     TOYOTA_TRANSAXLE_OIL_T: 84
   response: 7DA0662104082007C
@@ -10,8 +10,8 @@ test_cases:
     TOYOTA_TRANSAXLE_OIL_T: 84
   response: 7DA0662104082F07C
 - expected_values:
-    TOYOTA_TRANSAXLE_OIL_T: 81
-  response: 7DA06621040858079
+    TOYOTA_TRANSAXLE_OIL_T: 77
+  response: 7DA066210408B3075
 - expected_values:
-    TOYOTA_TRANSAXLE_OIL_T: 81
-  response: 7DA06621040863079
+    TOYOTA_TRANSAXLE_OIL_T: 76
+  response: 7DA066210408B7074
