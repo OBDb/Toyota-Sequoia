@@ -1,6 +1,13 @@
 command_id: 750.758.221004|e=2A,fc=1
 test_cases:
 - expected_values:
+    TOYOTA_TIRE_T_1: -40
+    TOYOTA_TIRE_T_2: 10
+    TOYOTA_TIRE_T_3: -40
+  response: |-
+    7582A10086210040032
+    7582A21003100000000
+- expected_values:
     TOYOTA_TIRE_T_1: 15
     TOYOTA_TIRE_T_2: 16
     TOYOTA_TIRE_T_3: 14

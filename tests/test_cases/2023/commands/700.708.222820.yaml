@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     TOYOTA_INTERCOOLER_WATER_PUMP: 49.98245
   response: 708056228201FFD
+- expected_values:
+    TOYOTA_INTERCOOLER_WATER_PUMP: 84.99886
+  response: '708056228203666'

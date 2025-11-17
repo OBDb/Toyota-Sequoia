@@ -2,7 +2,13 @@ command_id: 700.708.221019
 test_cases:
 - expected_values:
     TOYOTA_INJECTION: DIRECT
+  response: 70807621019011484B0
+- expected_values:
+    TOYOTA_INJECTION: DIRECT
   response: 70807621019014C8000
+- expected_values:
+    TOYOTA_INJECTION: BOTH
+  response: '7080762101902158000'
 - expected_values:
     TOYOTA_INJECTION: BOTH
   response: 7080762101902248AF0
@@ -11,4 +17,4 @@ test_cases:
   response: 70807621019022A8B54
 - expected_values:
     TOYOTA_INJECTION: BOTH
-  response: 7080762101902CE8000
+  response: 7080762101902F48B3D
