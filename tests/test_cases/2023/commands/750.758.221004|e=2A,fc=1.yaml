@@ -8,6 +8,13 @@ test_cases:
     7582A10086210040032
     7582A21003100000000
 - expected_values:
+    TOYOTA_TIRE_T_1: 6
+    TOYOTA_TIRE_T_2: -40
+    TOYOTA_TIRE_T_3: 6
+  response: |-
+    7582A10086210042E00
+    7582A212E2E00000000
+- expected_values:
     TOYOTA_TIRE_T_1: 11
     TOYOTA_TIRE_T_2: -40
     TOYOTA_TIRE_T_3: -40
