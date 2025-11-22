@@ -1,20 +1,17 @@
-command_id: 7D2.220103|fc=1
+command_id: 701.709.220103
 test_cases:
 - expected_values:
-    TOYOTA_ODO_V2_V2: 36838
+    TOYOTA_ODO_V5: 36838
   response: 7090762010302008FE6
 - expected_values:
-    TOYOTA_ODO_V2_V2: 40206
+    TOYOTA_ODO_V5: 40206
   response: 7090762010302009D0E
 - expected_values:
-    TOYOTA_ODO_V2_V2: 69977
+    TOYOTA_ODO_V5: 69977
   response: '7090762010302011159'
 - expected_values:
-    TOYOTA_ODO_V2_V2: 71935
+    TOYOTA_ODO_V5: 71935
   response: 70907620103020118FF
 - expected_values:
-    TOYOTA_ODO_V2_V2: 75008
+    TOYOTA_ODO_V5: 75008
   response: '7090762010302012500'
-- expected_values:
-    TOYOTA_ODO_V2_V2: 40097
-  response: 7DA0762010302009CA1
