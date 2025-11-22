@@ -2,4 +2,5 @@ command_id: 7E0.7E8.2121
 test_cases:
 - expected_values:
     TOYOTA_CC_S: 209
+    TOYOTA_CC_VSS: 9
   response: 7E804612109D1
