@@ -1,0 +1,14 @@
+command_id: 700.708.221F3E
+test_cases:
+- expected_values:
+    TOYOTA_CAT_T_12: 32.9
+  response: 70805621F3E02D9
+- expected_values:
+    TOYOTA_CAT_T_12: 472
+  response: 70805621F3E1400
+- expected_values:
+    TOYOTA_CAT_T_12: 548.7
+  response: 70805621F3E16FF
+- expected_values:
+    TOYOTA_CAT_T_12: 777.4
+  response: 70805621F3E1FEE

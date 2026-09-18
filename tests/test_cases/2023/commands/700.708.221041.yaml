@@ -1,0 +1,18 @@
+command_id: 700.708.221041
+test_cases:
+- expected_values:
+    TOYOTA_ECT_IGN: -9.375
+    TOYOTA_ECT_INIT: 46.875
+  response: 70805621041318B
+- expected_values:
+    TOYOTA_ECT_IGN: -8.125
+    TOYOTA_ECT_INIT: -8.125
+  response: '708056210413333'
+- expected_values:
+    TOYOTA_ECT_IGN: 63.75
+    TOYOTA_ECT_INIT: 97.5
+  response: 70805621041A6DC
+- expected_values:
+    TOYOTA_ECT_IGN: 95
+    TOYOTA_ECT_INIT: 85.625
+  response: 70805621041D8C9
