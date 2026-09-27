@@ -1,0 +1,80 @@
+command_id: 7D2.7DA.2210A1
+test_cases:
+- expected_values:
+    TOYOTA_RPM: -2
+    TOYOTA_TQ: -0.25
+  response: |-
+    7DA100C6210A17FFE80
+    7DA210001007FFE0400
+- expected_values:
+    TOYOTA_RPM: -1
+    TOYOTA_TQ: -0.375
+  response: |-
+    7DA100C6210A17FFF80
+    7DA210001007FFD0400
+- expected_values:
+    TOYOTA_RPM: -1
+    TOYOTA_TQ: 0
+  response: |-
+    7DA100C6210A17FFF80
+    7DA2100010080000400
+- expected_values:
+    TOYOTA_RPM: 0
+    TOYOTA_TQ: -0.625
+  response: |-
+    7DA100C6210A1800080
+    7DA210001007FFB0400
+- expected_values:
+    TOYOTA_RPM: 0
+    TOYOTA_TQ: -0.5
+  response: |-
+    7DA100C6210A1800080
+    7DA210001007FFC0000
+- expected_values:
+    TOYOTA_RPM: 0
+    TOYOTA_TQ: -0.125
+  response: |-
+    7DA100C6210A1800080
+    7DA210001007FFF0400
+- expected_values:
+    TOYOTA_RPM: 281
+    TOYOTA_TQ: 0
+  response: |-
+    7DA100C6210A1811980
+    7DA210B040080000400
+- expected_values:
+    TOYOTA_RPM: 486
+    TOYOTA_TQ: 61.75
+  response: |-
+    7DA100C6210A181E681
+    7DA21F6040081EE0400
+- expected_values:
+    TOYOTA_RPM: 668
+    TOYOTA_TQ: -14
+  response: |-
+    7DA100C6210A1829C7F
+    7DA217F04007F900400
+- expected_values:
+    TOYOTA_RPM: 1048
+    TOYOTA_TQ: -235.75
+  response: |-
+    7DA100C6210A1841878
+    7DA217F040078A20400
+- expected_values:
+    TOYOTA_RPM: 1225
+    TOYOTA_TQ: 250.375
+  response: |-
+    7DA100C6210A184C988
+    7DA2102040087D30400
+- expected_values:
+    TOYOTA_RPM: 2339
+    TOYOTA_TQ: 124
+  response: |-
+    7DA100C6210A1892383
+    7DA21F3040283E00400
+- expected_values:
+    TOYOTA_RPM: 2826
+    TOYOTA_TQ: -1.125
+  response: |-
+    7DA100C6210A18B0A7F
+    7DA21ED04007FF70400
