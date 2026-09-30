@@ -1,0 +1,52 @@
+command_id: 750.758.221004|e=2A,ta=2A,fc=1
+test_cases:
+- expected_values:
+    SEQUOIA_TT_4: 24
+  response: |-
+    7582A10086210040000
+    7582A21004000000000
+- expected_values:
+    SEQUOIA_TT_2: 18
+  response: |-
+    7582A1008621004003A
+    7582A21000000000000
+- expected_values:
+    SEQUOIA_TT_1: 22
+    SEQUOIA_TT_2: 24
+    SEQUOIA_TT_3: 22
+    SEQUOIA_TT_4: 23
+  response: |-
+    7582A10086210043E40
+    7582A213E3F00000000
+- expected_values:
+    SEQUOIA_TT_1: 23
+    SEQUOIA_TT_2: 23
+    SEQUOIA_TT_3: 23
+    SEQUOIA_TT_4: 25
+  response: |-
+    7582A10086210043F3F
+    7582A213F4100000000
+- expected_values:
+    SEQUOIA_TT_1: 37
+    SEQUOIA_TT_2: 36
+    SEQUOIA_TT_3: 40
+    SEQUOIA_TT_4: 37
+  response: |-
+    7582A10086210044D4C
+    7582A21504D00000000
+- expected_values:
+    SEQUOIA_TT_1: 48
+    SEQUOIA_TT_2: 46
+    SEQUOIA_TT_3: 50
+    SEQUOIA_TT_4: 47
+  response: |-
+    7582A10086210045856
+    7582A215A5700000000
+- expected_values:
+    SEQUOIA_TT_1: 50
+    SEQUOIA_TT_2: 46
+    SEQUOIA_TT_3: 52
+    SEQUOIA_TT_4: 48
+  response: |-
+    7582A10086210045A56
+    7582A215C5800000000

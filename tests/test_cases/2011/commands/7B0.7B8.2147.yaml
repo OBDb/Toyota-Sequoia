@@ -1,0 +1,50 @@
+command_id: 7B0.7B8.2147
+test_cases:
+- expected_values:
+    SEQUOIA_LAT_G: 0
+    SEQUOIA_LNG_G: 0
+    SEQUOIA_STEER_ANGLE: -360
+    SEQUOIA_YAW_RATE: -12
+  response: 7B807614700007471F0
+- expected_values:
+    SEQUOIA_LAT_G: 0
+    SEQUOIA_LNG_G: 0
+    SEQUOIA_STEER_ANGLE: -661.5
+    SEQUOIA_YAW_RATE: -1
+  response: 7B807614700007F6629
+- expected_values:
+    SEQUOIA_LAT_G: 0
+    SEQUOIA_LNG_G: 0
+    SEQUOIA_STEER_ANGLE: -358.5
+    SEQUOIA_YAW_RATE: 0
+  response: 7B807614700008071FF
+- expected_values:
+    SEQUOIA_LAT_G: 0
+    SEQUOIA_LNG_G: 0
+    SEQUOIA_STEER_ANGLE: 0
+    SEQUOIA_YAW_RATE: 0
+  response: 7B80761470000808000
+- expected_values:
+    SEQUOIA_LAT_G: 0
+    SEQUOIA_LNG_G: 0
+    SEQUOIA_STEER_ANGLE: 678
+    SEQUOIA_YAW_RATE: 16
+  response: 7B80761470000909A7C
+- expected_values:
+    SEQUOIA_LAT_G: 0
+    SEQUOIA_LNG_G: -0.02
+    SEQUOIA_STEER_ANGLE: 666
+    SEQUOIA_YAW_RATE: -13
+  response: 7B807614700FF739A04
+- expected_values:
+    SEQUOIA_LAT_G: -0.06
+    SEQUOIA_LNG_G: -0.02
+    SEQUOIA_STEER_ANGLE: 15
+    SEQUOIA_YAW_RATE: 72
+  response: 7B8076147FDFFC88096
+- expected_values:
+    SEQUOIA_LAT_G: -0.02
+    SEQUOIA_LNG_G: 0
+    SEQUOIA_STEER_ANGLE: -88.5
+    SEQUOIA_YAW_RATE: -88
+  response: 7B8076147FF00287C8B

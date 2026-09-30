@@ -1,0 +1,18 @@
+command_id: 7E0.7E8.2185
+test_cases:
+- expected_values:
+    SEQUOIA_GEAR: 1
+    SEQUOIA_TQC_LOCKUP: 0
+  response: '7E8056185010000'
+- expected_values:
+    SEQUOIA_GEAR: 4
+    SEQUOIA_TQC_LOCKUP: 1
+  response: '7E8056185048010'
+- expected_values:
+    SEQUOIA_GEAR: 4
+    SEQUOIA_TQC_LOCKUP: 1
+  response: '7E8056185048018'
+- expected_values:
+    SEQUOIA_GEAR: 6
+    SEQUOIA_TQC_LOCKUP: 0
+  response: '7E8056185060000'

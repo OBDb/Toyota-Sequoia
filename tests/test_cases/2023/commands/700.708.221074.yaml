@@ -1,0 +1,11 @@
+command_id: 700.708.221074
+test_cases:
+- expected_values:
+    SEQUOIA_EOP: 0
+  response: '708056210740000'
+- expected_values:
+    SEQUOIA_EOP: 19.92188
+  response: 7080562107400FF
+- expected_values:
+    SEQUOIA_EOP: 600.9375
+  response: 708056210741E0C

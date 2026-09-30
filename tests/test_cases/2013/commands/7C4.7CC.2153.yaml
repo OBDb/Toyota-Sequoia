@@ -1,0 +1,17 @@
+command_id: 7C4.7CC.2153
+test_cases:
+- expected_values:
+    SEQUOIA_REGULATOR_P: 1514.46
+  response: 7CC03615386
+- expected_values:
+    SEQUOIA_REGULATOR_P: 1529.17
+  response: 7CC03615387
+- expected_values:
+    SEQUOIA_REGULATOR_P: 1543.88
+  response: 7CC03615388
+- expected_values:
+    SEQUOIA_REGULATOR_P: 1676.27
+  response: 7CC03615391
+- expected_values:
+    SEQUOIA_REGULATOR_P: 1705.69
+  response: 7CC03615393
