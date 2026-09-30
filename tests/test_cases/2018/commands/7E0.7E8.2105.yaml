@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2105
+test_cases:
+- expected_values:
+    SEQUOIA_CAT_T_B1S1: 570.8
+    SEQUOIA_CAT_T_B1S2: 441.2
+  response: |-
+    7E8100C61054FD517DC
+    7E82117DC12CC12CC00

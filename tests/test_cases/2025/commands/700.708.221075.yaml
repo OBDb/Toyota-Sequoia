@@ -1,0 +1,14 @@
+command_id: 700.708.221075
+test_cases:
+- expected_values:
+    SEQUOIA_IWP_SPEED: 32973
+  response: 7080562107580CD
+- expected_values:
+    SEQUOIA_IWP_SPEED: 35839
+  response: 708056210758BFF
+- expected_values:
+    SEQUOIA_IWP_SPEED: 35840
+  response: 708056210758C00
+- expected_values:
+    SEQUOIA_IWP_SPEED: 40778
+  response: 708056210759F4A
