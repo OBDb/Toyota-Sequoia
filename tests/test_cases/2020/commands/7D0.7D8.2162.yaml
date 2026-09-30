@@ -1,16 +1,16 @@
 command_id: 7D0.7D8.2162
 test_cases:
 - expected_values:
-    SEQUOIA_PARKING_BRAKE: 'OFF'
+    SEQUOIA_PARKING_BRAKE: 0
   response: |-
     2162
     7D8056162091E1E
 - expected_values:
-    SEQUOIA_PARKING_BRAKE: 'OFF'
+    SEQUOIA_PARKING_BRAKE: 0
   response: 7D8056162010000
 - expected_values:
-    SEQUOIA_PARKING_BRAKE: 'OFF'
+    SEQUOIA_PARKING_BRAKE: 0
   response: 7D8056162016666
 - expected_values:
-    SEQUOIA_PARKING_BRAKE: 'OFF'
+    SEQUOIA_PARKING_BRAKE: 0
   response: 7D8056162190000
