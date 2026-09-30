@@ -1,0 +1,74 @@
+command_id: 7D2.7DA.2210A1|f=2023-
+test_cases:
+- expected_values:
+    SEQUOIA_RPM_7D2: -4
+    SEQUOIA_TQ: -0.25
+  response: |-
+    7DA100C6210A17FFC80
+    7DA210001007FFE0400
+- expected_values:
+    SEQUOIA_RPM_7D2: -3
+    SEQUOIA_TQ: -0.125
+  response: |-
+    7DA100C6210A17FFD80
+    7DA210001007FFF0000
+- expected_values:
+    SEQUOIA_RPM_7D2: -3
+    SEQUOIA_TQ: 0
+  response: |-
+    7DA100C6210A17FFD80
+    7DA2100010080000400
+- expected_values:
+    SEQUOIA_RPM_7D2: -1
+    SEQUOIA_TQ: -0.875
+  response: |-
+    7DA100C6210A17FFF80
+    7DA210001007FF90400
+- expected_values:
+    SEQUOIA_RPM_7D2: 0
+    SEQUOIA_TQ: 0
+  response: |-
+    7DA100C6210A1800080
+    7DA2100000080000000
+- expected_values:
+    SEQUOIA_RPM_7D2: 0
+    SEQUOIA_TQ: 1.125
+  response: |-
+    7DA100C6210A1800080
+    7DA210F010080090400
+- expected_values:
+    SEQUOIA_RPM_7D2: 30
+    SEQUOIA_TQ: 86
+  response: |-
+    7DA100C6210A1801E82
+    7DA21FB010082B00400
+- expected_values:
+    SEQUOIA_RPM_7D2: 103
+    SEQUOIA_TQ: -0.75
+  response: |-
+    7DA100C6210A180677F
+    7DA21F304007FFA0400
+- expected_values:
+    SEQUOIA_RPM_7D2: 729
+    SEQUOIA_TQ: -225.25
+  response: |-
+    7DA100C6210A182D978
+    7DA21E9040078F60400
+- expected_values:
+    SEQUOIA_RPM_7D2: 1073
+    SEQUOIA_TQ: 252.75
+  response: |-
+    7DA100C6210A1843188
+    7DA2110040087E60400
+- expected_values:
+    SEQUOIA_RPM_7D2: 2724
+    SEQUOIA_TQ: 116.375
+  response: |-
+    7DA100C6210A18AA483
+    7DA21ED040283A30400
+- expected_values:
+    SEQUOIA_RPM_7D2: 5447
+    SEQUOIA_TQ: 28.75
+  response: |-
+    7DA100C6210A1954780
+    7DA21E9040280E60400

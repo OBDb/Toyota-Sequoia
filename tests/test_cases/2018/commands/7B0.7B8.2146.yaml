@@ -1,0 +1,9 @@
+command_id: 7B0.7B8.2146
+test_cases:
+- expected_values:
+    SEQUOIA_ZP_DEC: 0.04
+    SEQUOIA_ZP_DEC2: 0.02
+    SEQUOIA_ZP_YAW: 0
+  response: |-
+    7B81009614602018080
+    7B821000A1F00000000

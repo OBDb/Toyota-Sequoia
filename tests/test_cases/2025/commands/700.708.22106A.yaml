@@ -1,0 +1,11 @@
+command_id: 700.708.22106A
+test_cases:
+- expected_values:
+    SEQUOIA_FUEL_PUMP_DUTY_RATIO: 0
+  response: 7080562106A0000
+- expected_values:
+    SEQUOIA_FUEL_PUMP_DUTY_RATIO: 280.91463
+  response: 7080562106A11FF
+- expected_values:
+    SEQUOIA_FUEL_PUMP_DUTY_RATIO: 343.84146
+  response: 7080562106A1607
