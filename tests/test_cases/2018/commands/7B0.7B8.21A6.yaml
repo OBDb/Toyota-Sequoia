@@ -1,0 +1,8 @@
+command_id: 7B0.7B8.21A6
+test_cases:
+- expected_values:
+    TOYOTA_INSPECTION_MODE: 0
+  response: "21A6\n7B8 04 61 A6 00 00 "
+- expected_values:
+    TOYOTA_INSPECTION_MODE: 0
+  response: 7B80461A60000

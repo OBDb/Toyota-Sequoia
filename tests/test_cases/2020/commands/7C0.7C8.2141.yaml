@@ -1,0 +1,19 @@
+command_id: 7C0.7C8.2141
+test_cases:
+- expected_values:
+    TOYOTA_OIL_CHANGE_ODO: 6115.5072
+  response: |-
+    2141
+    7C803614126
+- expected_values:
+    TOYOTA_OIL_CHANGE_ODO: 1770.2784
+  response: 7C80361410B
+- expected_values:
+    TOYOTA_OIL_CHANGE_ODO: 5149.9008
+  response: 7C803614120
+- expected_values:
+    TOYOTA_OIL_CHANGE_ODO: 5471.7696
+  response: 7C803614122
+- expected_values:
+    TOYOTA_OIL_CHANGE_ODO: 6115.5072
+  response: 7C803614126
