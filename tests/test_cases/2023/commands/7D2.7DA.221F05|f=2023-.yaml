@@ -4,5 +4,5 @@ test_cases:
     SEQUOIA_COOL_T: 2
   response: 7DA04621F052A
 - expected_values:
-    SEQUOIA_COOL_T: 99
-  response: 7DA04621F058B
+    SEQUOIA_COOL_T: null
+  response: 7DA04621F05FF
