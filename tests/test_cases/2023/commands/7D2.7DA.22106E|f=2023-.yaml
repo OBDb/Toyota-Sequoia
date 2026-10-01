@@ -4,5 +4,5 @@ test_cases:
     SEQUOIA_AC_POWER_CONS: 0
   response: 7DA0462106E00
 - expected_values:
-    SEQUOIA_AC_POWER_CONS: 1
-  response: 7DA0462106E14
+    SEQUOIA_AC_POWER_CONS: 1.05
+  response: 7DA0462106E15
