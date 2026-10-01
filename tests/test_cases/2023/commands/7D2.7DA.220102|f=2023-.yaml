@@ -1,0 +1,27 @@
+command_id: 7D2.7DA.220102|f=2023-
+test_cases:
+- expected_values:
+    SEQUOIA_KEY_CYCLE: 9364
+  response: |-
+    7DA100A620102249400
+    7DA21009C3901000000
+- expected_values:
+    SEQUOIA_KEY_CYCLE: 9364
+  response: |-
+    7DA100A620102249400
+    7DA210127EF01000000
+- expected_values:
+    SEQUOIA_KEY_CYCLE: 9364
+  response: |-
+    7DA100A620102249400
+    7DA21029FAE01000000
+- expected_values:
+    SEQUOIA_KEY_CYCLE: 9364
+  response: |-
+    7DA100A620102249400
+    7DA2105701001000000
+- expected_values:
+    SEQUOIA_KEY_CYCLE: 9364
+  response: |-
+    7DA100A620102249400
+    7DA2109238501000000
