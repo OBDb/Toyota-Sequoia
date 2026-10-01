@@ -10,5 +10,5 @@ test_cases:
     SEQUOIA_FUEL_LEVEL: 40.96
   response: 7C8056210221000
 - expected_values:
-    SEQUOIA_FUEL_LEVEL: 81.93
-  response: 7C8056210222001
+    SEQUOIA_FUEL_LEVEL: null
+  response: 7C805621022FFFF
