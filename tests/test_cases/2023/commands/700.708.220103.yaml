@@ -4,5 +4,5 @@ test_cases:
     SEQUOIA_ENG_ODO: 89917
   response: 7080762010302015F3D
 - expected_values:
-    SEQUOIA_ENG_ODO: 89966
-  response: 7080762010302015F6E
+    SEQUOIA_ENG_ODO: 90006
+  response: 7080762010302015F96
