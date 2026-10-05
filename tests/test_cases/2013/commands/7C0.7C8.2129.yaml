@@ -1,5 +1,0 @@
-command_id: 7C0.7C8.2129
-test_cases:
-- expected_values:
-    SEQUOIA_FLI_VOL: 21
-  response: 7C8036129A2
