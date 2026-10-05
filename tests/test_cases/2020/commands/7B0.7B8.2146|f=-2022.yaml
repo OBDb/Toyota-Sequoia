@@ -1,0 +1,45 @@
+command_id: 7B0.7B8.2146|f=-2022
+test_cases:
+- expected_values:
+    SEQUOIA_ZP_DEC: 0
+    SEQUOIA_ZP_DEC2: 0.04
+    SEQUOIA_ZP_YAW: 0
+  response: |-
+    2146
+    7B81009614600028080
+    7B821004C1F00000000
+- expected_values:
+    SEQUOIA_ZP_DEC: 0
+    SEQUOIA_ZP_DEC2: 0.04
+    SEQUOIA_ZP_YAW: 0
+  response: |-
+    7B8100961460002807F
+    7B821F14C1F00000000
+- expected_values:
+    SEQUOIA_ZP_DEC: 0
+    SEQUOIA_ZP_DEC2: 0.04
+    SEQUOIA_ZP_YAW: 0
+  response: |-
+    7B81009614600028080
+    7B821004C0800000000
+- expected_values:
+    SEQUOIA_ZP_DEC: 0
+    SEQUOIA_ZP_DEC2: 0.04
+    SEQUOIA_ZP_YAW: 0
+  response: |-
+    7B81009614600028080
+    7B821004C0900000000
+- expected_values:
+    SEQUOIA_ZP_DEC: 0
+    SEQUOIA_ZP_DEC2: 0.04
+    SEQUOIA_ZP_YAW: 0
+  response: |-
+    7B81009614600028080
+    7B821004C1F00000000
+- expected_values:
+    SEQUOIA_ZP_DEC: 0.02
+    SEQUOIA_ZP_DEC2: 0.04
+    SEQUOIA_ZP_YAW: 0
+  response: |-
+    7B81009614601028080
+    7B821004C0500000000

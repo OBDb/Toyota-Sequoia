@@ -1,0 +1,13 @@
+command_id: 7C0.7C8.2123|f=-2022
+test_cases:
+- expected_values:
+    SEQUOIA_ECT_7C0: 88.5
+  response: |-
+    2123
+    7C8036123B1
+- expected_values:
+    SEQUOIA_ECT_7C0: 41
+  response: 7C803612352
+- expected_values:
+    SEQUOIA_ECT_7C0: 92
+  response: 7C8036123B8
