@@ -1,0 +1,20 @@
+command_id: 7C0.7C8.221022|f=2023-;-2007
+test_cases:
+- expected_values:
+    SEQUOIA_FUEL_LEVEL: 0
+  response: 7C8056210220000
+- expected_values:
+    SEQUOIA_FUEL_LEVEL: 10.59
+  response: 7C8056210220423
+- expected_values:
+    SEQUOIA_FUEL_LEVEL: 28.15
+  response: 7C8056210220AFF
+- expected_values:
+    SEQUOIA_FUEL_LEVEL: 33.28
+  response: 7C8056210220D00
+- expected_values:
+    SEQUOIA_FUEL_LEVEL: 79.68
+  response: 7C8056210221F20
+- expected_values:
+    SEQUOIA_FUEL_LEVEL: null
+  response: 7C805621022FFFF
