@@ -357,8 +357,8 @@
   ]},
 { "hdr": "700", "rax": "708", "cmd": {"22": "1F77"}, "freq": 5, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
-    {"id": "SEQUOIA_IAT_B1S1", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Intake air temperature, bank 1 sensor 1"},
-    {"id": "SEQUOIA_IAT_B1S2", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Intake air temperature, bank 1 sensor 2"}
+    {"id": "SEQUOIA_IAT_B1S1", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 215, "min": -40, "add": -40,                 "unit": "celsius" }, "name": "Intake air temperature, bank 1 sensor 1"},
+    {"id": "SEQUOIA_IAT_B1S2", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "nullmin": -40, "unit": "celsius" }, "name": "Intake air temperature, bank 1 sensor 2"}
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1FF8"}, "freq": 5,
   "signals": [
@@ -708,7 +708,7 @@
   ]},
 { "hdr": "7C0", "rax": "7C8", "cmd": {"22": "1021"}, "freq": 5, "filter": { "to": 2007, "from": 2023 }, "dbgfilter": { "from": 2026 },
   "signals": [
-    {"id": "SEQUOIA_BATTERY_VOLTAGE_7C0", "path": "Electrical", "fmt": { "len": 8, "max": 20, "div": 10, "unit": "volts" }, "name": "B+ battery voltage", "suggestedMetric": "starterBatteryVoltage"}
+    {"id": "SEQUOIA_BATTERY_VOLTAGE_7C0", "path": "Electrical", "fmt": { "len": 8, "max": 20, "div": 10, "nullmin": 0, "unit": "volts" }, "name": "B+ battery voltage", "suggestedMetric": "starterBatteryVoltage"}
   ]},
 { "hdr": "7C0", "rax": "7C8", "cmd": {"22": "1022"}, "freq": 30, "filter": { "to": 2007, "from": 2023 }, "dbgfilter": { "from": 2026 },
   "signals": [
@@ -795,7 +795,7 @@
   ]},
 { "hdr": "7D2", "rax": "7DA", "fcm1": true, "cmd": {"22": "0103"}, "freq": 10, "filter": { "from": 2023 }, "dbgfilter": { "from": 2026 },
   "signals": [
-    {"id": "SEQUOIA_ODO_V2_V2", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+    {"id": "SEQUOIA_ODO_V2_V2", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "nullmax": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
 { "hdr": "7D2", "rax": "7DA", "cmd": {"22": "1002"}, "freq": 5, "filter": { "from": 2023 }, "dbgfilter": { "from": 2024 },
   "signals": [
