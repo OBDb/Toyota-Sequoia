@@ -449,7 +449,7 @@
     {"id": "SEQUOIA_TIRE_P_4_SET_2", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 3.89, "min": -0.5, "mul": 69, "div": 4000, "add": -0.5, "unit": "bars" }, "name": "Tire pressure 4, set 2"},
     {"id": "SEQUOIA_TIRE_P_5_SET_2", "path": "Tires", "fmt": {"bix": 32, "len": 8, "max": 3.89, "min": -0.5, "mul": 69, "div": 4000, "add": -0.5, "unit": "bars" }, "name": "Tire pressure 5, set 2"}
   ]},
-{ "hdr": "750", "rax": "758", "eax": "2A", "fcm1": true, "cmd": {"21": "16"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
+{ "hdr": "750", "rax": "758", "eax": "2A", "fcm1": true, "cmd": {"21": "16"}, "freq": 1, "filter": { "to": 2022 }, "dbgfilter": { "to": 2017, "from": 2019 },
   "signals": [
     {"id": "SEQUOIA_TT_FL",    "path": "Tires", "fmt": {           "len": 8, "max": 215, "min": -40, "add": -40, "nullmin": -40, "nullmax": 215, "unit": "celsius" }, "name": "Front left tire temperature",  "suggestedMetric": "frontLeftTireTemperature"},
     {"id": "SEQUOIA_TT_FR",    "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 215, "min": -40, "add": -40, "nullmin": -40, "nullmax": 215, "unit": "celsius" }, "name": "Front right tire temperature", "suggestedMetric": "frontRightTireTemperature"},
@@ -457,7 +457,7 @@
     {"id": "SEQUOIA_TT_RR",    "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 215, "min": -40, "add": -40, "nullmin": -40, "nullmax": 215, "unit": "celsius" }, "name": "Rear right tire temperature",  "suggestedMetric": "rearRightTireTemperature"},
     {"id": "SEQUOIA_TT_SPARE", "path": "Tires", "fmt": {"bix": 32, "len": 8, "max": 215, "min": -40, "add": -40, "nullmin": -40, "nullmax": 215, "unit": "celsius" }, "name": "Spare tire temperature"}
   ]},
-{ "hdr": "750", "rax": "758", "eax": "2A", "tst": "2A", "fcm1": true, "cmd": {"21": "30"}, "freq": 2.5, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2019], "from": 2021 },
+{ "hdr": "750", "rax": "758", "eax": "2A", "tst": "2A", "fcm1": true, "cmd": {"21": "30"}, "freq": 2.5, "filter": { "to": 2022 }, "dbgfilter": { "to": 2006, "years": [2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2019], "from": 2021 },
   "signals": [
     {"id": "SEQUOIA_TP_FL",    "path": "Tires", "fmt": {           "len": 8, "max": 3.896, "div": 58, "add": -0.5, "nullmin": 0, "nullmax": 3.896, "unit": "bars" }, "name": "Front left tire pressure",  "suggestedMetric": "frontLeftTirePressure"},
     {"id": "SEQUOIA_TP_FR",    "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 3.896, "div": 58, "add": -0.5, "nullmin": 0, "nullmax": 3.896, "unit": "bars" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"},
@@ -465,7 +465,7 @@
     {"id": "SEQUOIA_TP_RR",    "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 3.896, "div": 58, "add": -0.5, "nullmin": 0, "nullmax": 3.896, "unit": "bars" }, "name": "Rear right tire pressure",  "suggestedMetric": "rearRightTirePressure"},
     {"id": "SEQUOIA_TP_SPARE", "path": "Tires", "fmt": {"bix": 32, "len": 8, "max": 3.896, "div": 58, "add": -0.5, "nullmin": 0, "nullmax": 3.896, "unit": "bars" }, "name": "Spare tire pressure"}
   ]},
-{ "hdr": "750", "rax": "758", "eax": "2A", "tst": "2A", "fcm1": true, "cmd": {"22": "1004"}, "freq": 15, "dbgfilter": { "to": 2022, "from": 2026 },
+{ "hdr": "750", "rax": "758", "eax": "2A", "tst": "2A", "fcm1": true, "cmd": {"22": "1004"}, "freq": 15, "filter": { "to": 2007, "from": 2023 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "SEQUOIA_TT_1", "path": "Tires", "fmt": {           "len": 8, "max": 100, "min": -30, "add": -40, "nullmin": -30, "unit": "celsius" }, "name": "Front right tire temperature"},
     {"id": "SEQUOIA_TT_2", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 100, "min": -30, "add": -40, "nullmin": -30, "unit": "celsius" }, "name": "Rear right tire temperature"},
@@ -473,7 +473,7 @@
     {"id": "SEQUOIA_TT_4", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 100, "min": -30, "add": -40, "nullmin": -30, "unit": "celsius" }, "name": "Rear left tire temperature"},
     {"id": "SEQUOIA_TT_5", "path": "Tires", "fmt": {"bix": 32, "len": 8, "max": 100, "min": -30, "add": -40, "nullmin": -30, "unit": "celsius" }, "name": "Spare tire temperature"}
   ]},
-{ "hdr": "750", "rax": "758", "eax": "2A", "tst": "2A", "fcm1": true, "cmd": {"22": "1005"}, "freq": 15, "dbgfilter": { "to": 2022, "from": 2026 },
+{ "hdr": "750", "rax": "758", "eax": "2A", "tst": "2A", "fcm1": true, "cmd": {"22": "1005"}, "freq": 15, "filter": { "to": 2007, "from": 2023 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "SEQUOIA_TP_1", "path": "Tires", "fmt": {"bix": 8,  "len": 8, "max": 56.1212, "div": 4.125, "add": -5.6969697, "nullmin": 0, "nullmax": 56.1212, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"},
     {"id": "SEQUOIA_TP_2", "path": "Tires", "fmt": {"bix": 24, "len": 8, "max": 56.1212, "div": 4.125, "add": -5.6969697, "nullmin": 0, "nullmax": 56.1212, "unit": "psi" }, "name": "Rear right tire pressure",  "suggestedMetric": "rearRightTirePressure"},
@@ -481,7 +481,7 @@
     {"id": "SEQUOIA_TP_4", "path": "Tires", "fmt": {"bix": 56, "len": 8, "max": 56.1212, "div": 4.125, "add": -5.6969697, "nullmin": 0, "nullmax": 56.1212, "unit": "psi" }, "name": "Rear left tire pressure",   "suggestedMetric": "rearLeftTirePressure"},
     {"id": "SEQUOIA_TP_5", "path": "Tires", "fmt": {"bix": 72, "len": 8, "max": 56.1212, "div": 4.125, "add": -5.6969697, "nullmin": 0, "nullmax": 56.1212, "unit": "psi" }, "name": "Spare tire pressure"}
   ]},
-{ "hdr": "750", "rax": "758", "eax": "2A", "tst": "2A", "fcm1": true, "cmd": {"22": "2021"}, "freq": 86400, "dbgfilter": { "to": 2022, "from": 2026 },
+{ "hdr": "750", "rax": "758", "eax": "2A", "tst": "2A", "fcm1": true, "cmd": {"22": "2021"}, "freq": 86400, "filter": { "to": 2007, "from": 2023 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "SEQUOIA_TID_1", "path": "Tires", "name": "Tire 1 position", "fmt": {"len": 8, "map": {
           "1": { "description": "Front left",  "value": "FL" },
@@ -653,7 +653,7 @@
     {"id": "SEQUOIA_ACCUMULATOR_OPEN",       "path": "Engine",      "fmt": {"bix": 16, "len": 1, "max": 1, "unit": "noyes" }, "name": "Accumulator open"},
     {"id": "SEQUOIA_HV_COMM_OPEN",           "path": "Engine",      "fmt": {"bix": 17, "len": 1, "max": 1, "unit": "noyes" }, "name": "Hydraulic valve, communication open"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"22": "1006"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2026 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"22": "1006"}, "freq": 5, "filter": { "to": 2007, "from": 2023 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "SEQUOIA_MASTER_CYL_TEMP", "path": "Engine", "fmt": { "len": 8, "max": 100, "min": -20, "add": -80, "unit": "celsius" }, "name": "Master cylinder sensor temperature"}
   ]},
@@ -706,39 +706,39 @@
   "signals": [
     {"id": "SEQUOIA_REVERSE_BEEP", "path": "Seatbelts", "fmt": {"bix": 1, "len": 1, "max": 1, "unit": "onoff" }, "name": "Reverse beep"}
   ]},
-{ "hdr": "7C0", "rax": "7C8", "cmd": {"22": "1021"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2026 },
+{ "hdr": "7C0", "rax": "7C8", "cmd": {"22": "1021"}, "freq": 5, "filter": { "to": 2007, "from": 2023 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "SEQUOIA_BATTERY_VOLTAGE_7C0", "path": "Electrical", "fmt": { "len": 8, "max": 20, "div": 10, "unit": "volts" }, "name": "B+ battery voltage", "suggestedMetric": "starterBatteryVoltage"}
   ]},
-{ "hdr": "7C0", "rax": "7C8", "cmd": {"22": "1022"}, "freq": 30, "dbgfilter": { "to": 2022, "from": 2026 },
+{ "hdr": "7C0", "rax": "7C8", "cmd": {"22": "1022"}, "freq": 30, "filter": { "to": 2007, "from": 2023 }, "dbgfilter": { "from": 2026 },
   "signals": [
     {"id": "SEQUOIA_FUEL_LEVEL", "path": "Fuel", "fmt": { "len": 16, "max": 655.35, "div": 100, "nullmax": 655.35, "unit": "liters" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "21"}, "freq": 5, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2019], "from": 2021 },
+{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "21"}, "freq": 5, "filter": { "to": 2022 }, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2019], "from": 2021 },
   "signals": [
     {"id": "SEQUOIA_CABIN_T", "path": "Climate", "fmt": { "len": 8, "max": 57.25, "min": -6.5, "mul": 63.75, "div": 255, "add": -6.5, "unit": "celsius" }, "name": "Cabin temperature"}
   ]},
-{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "22"}, "freq": 5, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2019], "from": 2021 },
+{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "22"}, "freq": 5, "filter": { "to": 2022 }, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2019], "from": 2021 },
   "signals": [
     {"id": "SEQUOIA_AAT_7C4", "path": "Climate", "fmt": { "len": 8, "max": 65.95, "min": -23.3, "mul": 89.25, "div": 255, "add": -23.3, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]},
-{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "24"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "24"}, "freq": 1, "filter": { "to": 2022 }, "dbgfilter": { "to": 2012, "from": 2014 },
   "signals": [
     {"id": "SEQUOIA_SOLAR_DRIVER", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Solar sensor, driver side"}
   ]},
-{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "26"}, "freq": 5, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2019], "from": 2021 },
+{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "26"}, "freq": 5, "filter": { "to": 2022 }, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2019], "from": 2021 },
   "signals": [
     {"id": "SEQUOIA_ECT", "path": "Engine", "fmt": { "len": 8, "max": 90.55, "min": 1.3, "mul": 89.25, "div": 255, "add": 1.3, "unit": "celsius" }, "name": "Engine coolant temperature", "suggestedMetric": "engineCoolantTemperature"}
   ]},
-{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "29"}, "freq": 5, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2019], "from": 2021 },
+{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "29"}, "freq": 5, "filter": { "to": 2022 }, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2019], "from": 2021 },
   "signals": [
     {"id": "SEQUOIA_T_DRIVER", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "celsius" }, "name": "Set temperature, driver side"}
   ]},
-{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "3C"}, "freq": 5, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2019], "from": 2021 },
+{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "3C"}, "freq": 5, "filter": { "to": 2022 }, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2019], "from": 2021 },
   "signals": [
     {"id": "SEQUOIA_BLOWER_MOTOR_SPEED_LEVEL", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Blower motor speed level"}
   ]},
-{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "3D"}, "freq": 5, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2019], "from": 2021 },
+{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "3D"}, "freq": 5, "filter": { "to": 2022 }, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2019], "from": 2021 },
   "signals": [
     {"id": "SEQUOIA_ADJUSTED_AMBIENT_T", "path": "Climate", "fmt": { "len": 8, "max": 50.8, "min": -30.8, "mul": 81.6, "div": 255, "add": -30.8, "unit": "celsius" }, "name": "Adjusted ambient temperature"}
   ]},
@@ -765,7 +765,7 @@
   "signals": [
     {"id": "SEQUOIA_COMP_TGT_SPD", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "Compressor, target speed"}
   ]},
-{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "4B"}, "freq": 5, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2019], "from": 2021 },
+{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "4B"}, "freq": 5, "filter": { "to": 2022 }, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2019], "from": 2021 },
   "signals": [
     {"id": "SEQUOIA_EVAP_FIN_THERMISTOR", "path": "Climate", "fmt": { "len": 8, "max": 59.55, "min": -29.7, "mul": 89.25, "div": 255, "add": -29.7, "unit": "celsius" }, "name": "Evaporator fin thermistor"}
   ]},
@@ -773,7 +773,7 @@
   "signals": [
     {"id": "SEQUOIA_EVAP_TARGET_T", "path": "Climate", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "add": -327.68, "unit": "scalar" }, "name": "Evaporator target temperature"}
   ]},
-{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "53"}, "freq": 5, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2019], "from": 2021 },
+{ "hdr": "7C4", "rax": "7CC", "cmd": {"21": "53"}, "freq": 5, "filter": { "to": 2022 }, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2019], "from": 2021 },
   "signals": [
     {"id": "SEQUOIA_REGULATOR_P", "path": "Engine", "fmt": { "len": 8, "max": 3294, "min": -456.68, "mul": 375105, "div": 25500, "add": -456.68, "unit": "kilopascal" }, "name": "Regulator pressure"}
   ]},
@@ -1092,7 +1092,7 @@
   "signals": [
     {"id": "SEQUOIA_CC_S", "path": "Cruise control", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Cruise control speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "24"}, "freq": 5, "dbgfilter": { "to": 2005, "from": 2007 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "24"}, "freq": 5, "filter": { "to": 2007, "from": 2023 }, "dbgfilter": { "to": 2005, "from": 2007 },
   "signals": [
     {"id": "SEQUOIA_COMMUNICATION_WITH_HV",     "path": "Climate", "fmt": {"bix": 2, "len": 1, "max": 1, "unit": "offon"  }, "name": "Communication with HV"},
     {"id": "SEQUOIA_COMMUNICATION_WITH_BRAKE",  "path": "Control", "fmt": {"bix": 4, "len": 1, "max": 1, "unit": "offon"  }, "name": "Communication with brake"},
@@ -1247,7 +1247,7 @@
     {"id": "SEQUOIA_F_C_ENG_STOP_REQ",     "path": "Engine",   "fmt": {"bix": 92, "len": 1,  "max": 1,                                                                   "unit": "offon"        }, "name": "Fuel cut for engine stop request"},
     {"id": "SEQUOIA_IDLE_SPD_CTRL",        "path": "Engine",   "fmt": {"bix": 93, "len": 1,  "max": 1,                                                                   "unit": "offon"        }, "name": "Idle speed control learning"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "51"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2019], "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "51"}, "freq": 1, "filter": { "from": 2008 }, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2019], "from": 2021 },
   "signals": [
     {"id": "SEQUOIA_PREV_TRIP_DST", "path": "Trips",  "fmt": {"bix": 40, "len": 16, "max": 655.35,             "div": 100,             "unit": "kilometers" }, "name": "Previous trip distance"},
     {"id": "SEQUOIA_VVTOT",         "path": "Engine", "fmt": {"bix": 56, "len": 8,  "max": 215,    "min": -40,             "add": -40, "unit": "celsius"    }, "name": "Variable valve timing oil temperature"},
@@ -1279,7 +1279,7 @@
     {"id": "SEQUOIA_SPD_NOUT",    "path": "Engine",  "fmt": {"bix": 32, "len": 8,  "max": 12750, "mul": 50,               "unit": "rpm"   }, "name": "Output shaft speed"},
     {"id": "SEQUOIA_NOUT_SENS_V", "path": "Battery", "fmt": {"bix": 40, "len": 16, "max": 4.999,            "div": 13107, "unit": "volts" }, "name": "Output speed sensor voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "82"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012, 2014, 2015, 2016, 2017, 2019], "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "82"}, "freq": 1, "filter": { "from": 2008 }, "dbgfilter": { "to": 2010, "years": [2012, 2014, 2015, 2016, 2017, 2019], "from": 2021 },
   "signals": [
     {"id": "SEQUOIA_ATF_PAN_T", "path": "Transmission", "fmt": {           "len": 16, "max": 215, "min": -40, "div": 256, "add": -40, "unit": "celsius" }, "name": "Transmission temperature, pan",              "suggestedMetric": "transmissionFluidTemperature"},
     {"id": "SEQUOIA_ATF_TQC_T", "path": "Transmission", "fmt": {"bix": 16, "len": 16, "max": 215, "min": -40, "div": 256, "add": -40, "unit": "celsius" }, "name": "Transmission temperature, torque converter", "suggestedMetric": "transmissionFluidTemperature"}
@@ -1290,7 +1290,7 @@
     {"id": "SEQUOIA_G_SENS_CALIBRATION", "path": "Engine",       "fmt": {"bix": 2, "len": 1,  "max": 1,                             "unit": "scalar" }, "name": "G sensor calibration, complete"},
     {"id": "SEQUOIA_G_SENS_LEARNING",    "path": "Engine",       "fmt": {"bix": 8, "len": 16, "max": 79.998, "mul": 5, "div": 4096, "unit": "volts"  }, "name": "G sensor learning value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "85"}, "freq": 0.4, "dbgfilter": { "to": 2010, "years": [2012, 2014, 2015, 2016, 2017, 2018, 2019], "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "85"}, "freq": 0.4, "filter": { "from": 2008 }, "dbgfilter": { "to": 2010, "years": [2012, 2014, 2015, 2016, 2017, 2018, 2019], "from": 2021 },
   "signals": [
     {"id": "SEQUOIA_GEAR",       "path": "Transmission", "fmt": {          "len": 8, "max": 20, "unit": "scalar" }, "name": "Gear"},
     {"id": "SEQUOIA_TQC_LOCKUP", "path": "Transmission", "fmt": {"bix": 8, "len": 1, "max": 1,  "unit": "offon"  }, "name": "Torque converter lock-up", "description": "Engages a clutch inside the torque converter to create a direct connection between the engine and transmission, reducing slippage and improving efficiency."}
@@ -1326,7 +1326,7 @@
     {"id": "SEQUOIA_ATF_T_V_5",  "path": "Transmission", "fmt": {"bix": 32, "len": 16, "max": 215.996, "min": -40, "div": 256, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature, variant 5"},
     {"id": "SEQUOIA_ATF_T_V_8",  "path": "Transmission", "fmt": {"bix": 48, "len": 16, "max": 215.996, "min": -40, "div": 256, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature, variant 8"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "DA"}, "freq": 0.25, "dbgfilter": { "to": 2005, "from": 2007 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "DA"}, "freq": 0.25, "filter": { "to": 2007, "from": 2023 }, "dbgfilter": { "to": 2005, "from": 2007 },
   "signals": [
     {"id": "SEQUOIA_GEAR_V2", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear"}
   ]},
