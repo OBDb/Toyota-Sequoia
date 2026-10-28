@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2181
+test_cases:
+- expected_values:
+    SEQUOIA_SPD_NT: 650
+  response: 7E80461810D00

@@ -1,0 +1,6 @@
+command_id: 7E0.7E8.213C
+test_cases:
+- expected_values:
+    SEQUOIA_INJ_DUR_CYL_1: 2.396
+    SEQUOIA_INJ_VOL_CYL_1: 0.00011
+  response: 7E806613C0E34095C
