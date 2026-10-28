@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2103
+test_cases:
+- expected_values:
+    SEQUOIA_IGN_ADVANCE: 14
+    SEQUOIA_LONG_FT_B1: 0
+    SEQUOIA_LONG_FT_B2: 1.5625
+    SEQUOIA_SHORT_FT_B1: 0
+    SEQUOIA_SHORT_FT_B2: 0
+  response: |-
+    7E8100D610302028080
+    7E82180829C6D010200
