@@ -4,3 +4,7 @@ test_cases:
     SEQUOIA_GEAR: 1
     SEQUOIA_TQC_LOCKUP: 0
   response: '7E8056185010010'
+- expected_values:
+    SEQUOIA_GEAR: 6
+    SEQUOIA_TQC_LOCKUP: 1
+  response: '7E8056185068018'

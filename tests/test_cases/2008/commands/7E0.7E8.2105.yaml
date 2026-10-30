@@ -6,3 +6,9 @@ test_cases:
   response: |-
     7E8100A6105135E135E
     7E8210C170C17000000
+- expected_values:
+    SEQUOIA_CAT_T_B1S1: 640.9
+    SEQUOIA_CAT_T_B1S2: 564.8
+  response: |-
+    7E8100A61051A991A99
+    7E82117A017A0000000

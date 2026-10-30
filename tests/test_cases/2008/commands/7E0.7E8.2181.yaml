@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     SEQUOIA_SPD_NT: 650
   response: 7E80461810D00
+- expected_values:
+    SEQUOIA_SPD_NT: 1350
+  response: 7E80461811B57
