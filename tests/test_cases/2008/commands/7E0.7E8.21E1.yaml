@@ -5,3 +5,8 @@ test_cases:
   response: |-
     7E8100A61E10000005A
     7E821200050C4000000
+- expected_values:
+    SEQUOIA_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E10000005B
+    7E821200025FA000000

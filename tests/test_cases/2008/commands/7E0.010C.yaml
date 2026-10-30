@@ -1,5 +1,14 @@
 command_id: 7E0.010C
 test_cases:
 - expected_values:
+    RPM: 553.75
+  response: 7E804410C08A7
+- expected_values:
     RPM: 702.25
   response: 7E804410C0AF9
+- expected_values:
+    RPM: 768.75
+  response: 7E804410C0C03
+- expected_values:
+    RPM: 2945.25
+  response: 7E804410C2E05
