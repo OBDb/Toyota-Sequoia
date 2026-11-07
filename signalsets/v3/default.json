@@ -631,7 +631,7 @@
   "signals": [
     {"id": "SEQUOIA_INSPECTION_MODE", "path": "Details", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Inspection mode"}
   ]},
-{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "BC"}, "freq": 3600, "filter": { "to": 2022 }, "dbgfilter": { "to": 2019, "from": 2021 },
+{ "hdr": "7B0", "rax": "7B8", "cmd": {"21": "BC"}, "freq": 3600, "filter": { "to": 2022 }, "dbgfilter": { "to": 2017, "years": [2019], "from": 2021 },
   "signals": [
     {"id": "SEQUOIA_HAZARD_SWITCH_HISTORY", "path": "Lights", "name": "Hazard switch history", "fmt": {"bix": 2, "len": 1, "map": {
           "0": { "description": "Incomplete", "value": "INCOMPLETE" },
@@ -668,7 +668,7 @@
     {"id": "SEQUOIA_CHECK_ENGINE_LIGHT",      "path": "Lights", "fmt": {"bix": 15, "len": 1, "max": 1, "unit": "offon" }, "name": "Check engine SW"},
     {"id": "SEQUOIA_EOP_LIGHT",               "path": "Lights", "fmt": {"bix": 35, "len": 1, "max": 1, "unit": "offon" }, "name": "Oil pressure switch"}
   ]},
-{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "13"}, "freq": 5, "filter": { "to": 2022 }, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2018, 2019], "from": 2021 },
+{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "13"}, "freq": 5, "filter": { "to": 2022 }, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2019], "from": 2021 },
   "signals": [
     {"id": "SEQUOIA_BAT_V", "path": "Battery", "fmt": { "len": 8, "max": 25.5, "div": 10, "unit": "volts" }, "name": "Battery voltage"}
   ]},
@@ -684,7 +684,7 @@
   "signals": [
     {"id": "SEQUOIA_FLI_VOL", "path": "Fuel", "fmt": { "len": 8, "max": 21, "mul": 500, "div": 3785, "unit": "gallons" }, "name": "Fuel level, volume", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "41"}, "freq": 30, "filter": { "to": 2022 }, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2018, 2019], "from": 2021 },
+{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "41"}, "freq": 30, "filter": { "to": 2022 }, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2019], "from": 2021 },
   "signals": [
     {"id": "SEQUOIA_OIL_CHANGE_ODO", "path": "Fluids", "fmt": { "len": 8, "max": 41038.272, "mul": 2514600, "div": 15625, "unit": "kilometers" }, "name": "Distance since oil change"}
   ]},
@@ -692,7 +692,7 @@
   "signals": [
     {"id": "SEQUOIA_RHEOSTAT", "path": "Lights", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Rheostat", "description": "Higher values are brighter"}
   ]},
-{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "A1"}, "freq": 1, "filter": { "to": 2022 }, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2018, 2019], "from": 2021 },
+{ "hdr": "7C0", "rax": "7C8", "cmd": {"21": "A1"}, "freq": 1, "filter": { "to": 2022 }, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2019], "from": 2021 },
   "signals": [
     {"id": "SEQUOIA_KEY_REMIND_SOUND", "path": "Control", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Key remind sound"}
   ]},
@@ -1013,7 +1013,7 @@
     {"id": "SEQUOIA_TIME_SINCE_DTC_CLEARED_V2",    "path": "Engine",   "fmt": {"bix": 184, "len": 16, "max": 65535,                                                     "unit": "minutes"           }, "name": "Time since DTCs cleared"},
     {"id": "SEQUOIA_BATTERY_VOLTAGE_7E0_V2",       "path": "Battery",  "fmt": {"bix": 200, "len": 16, "max": 65.535,                           "div": 1000,             "unit": "volts"             }, "name": "Battery voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "03"}, "freq": 1, "dbgfilter": { "to": 2005, "years": [2007, 2009, 2010, 2011, 2012, 2014, 2015, 2016, 2017, 2018, 2019], "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "03"}, "freq": 1, "dbgfilter": { "to": 2005, "years": [2007, 2009, 2010, 2011, 2012, 2014, 2015, 2016, 2017, 2019], "from": 2021 },
   "signals": [
     {"id": "SEQUOIA_SHORT_FT_B1", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 99.21, "min": -100, "mul": 200, "div": 256, "add": -100, "unit": "percent" }, "name": "Short term fuel trim, bank 1", "suggestedMetric": "shortTermFuelTrim"},
     {"id": "SEQUOIA_LONG_FT_B1",  "path": "Engine", "fmt": {"bix": 24, "len": 8, "max": 99.21, "min": -100, "mul": 200, "div": 256, "add": -100, "unit": "percent" }, "name": "Long term fuel trim, bank 1"},
@@ -1021,7 +1021,7 @@
     {"id": "SEQUOIA_LONG_FT_B2",  "path": "Engine", "fmt": {"bix": 40, "len": 8, "max": 99.21, "min": -100, "mul": 200, "div": 256, "add": -100, "unit": "percent" }, "name": "Long term fuel trim, bank 2"},
     {"id": "SEQUOIA_IGN_ADVANCE", "path": "Engine", "fmt": {"bix": 48, "len": 8, "max": 63.5,  "min": -64,              "div": 2,   "add": -64,  "unit": "degrees" }, "name": "Ignition timing advance"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "04"}, "freq": 1, "dbgfilter": { "to": 2005, "years": [2007, 2009, 2010, 2011, 2012, 2014, 2015, 2016, 2017, 2018, 2019], "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "04"}, "freq": 1, "dbgfilter": { "to": 2005, "years": [2007, 2009, 2010, 2011, 2012, 2014, 2015, 2016, 2017, 2019], "from": 2021 },
   "signals": [
     {"id": "SEQUOIA_LAMBDA_TARGET",  "path": "Fuel",   "fmt": {            "len": 16, "max": 1.99,                "mul": 1.99, "div": 65535,              "unit": "scalar"    }, "name": "Target air-fuel equivalence ratio"},
     {"id": "SEQUOIA_AF_LAMBDA_B1S1", "path": "Engine", "fmt": {"bix": 16,  "len": 16, "max": 1.99,                "mul": 1.99, "div": 65535,              "unit": "scalar"    }, "name": "Air-fuel equivalence ratio, bank 1 sensor 1", "suggestedMetric": "o2Lambda"},
@@ -1034,7 +1034,7 @@
     {"id": "SEQUOIA_CAT_T_B1S1", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Catalyst temperature, bank 1 sensor 1"},
     {"id": "SEQUOIA_CAT_T_B1S2", "path": "Engine", "fmt": {"bix": 48, "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Catalyst temperature, bank 1 sensor 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "06"}, "freq": 1, "dbgfilter": { "to": 2005, "years": [2007, 2009, 2010, 2011, 2012, 2014, 2015, 2016, 2017, 2018, 2019], "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "06"}, "freq": 1, "dbgfilter": { "to": 2005, "years": [2007, 2009, 2010, 2011, 2012, 2014, 2015, 2016, 2017, 2019], "from": 2021 },
   "signals": [
     {"id": "SEQUOIA_MIL",                            "path": "DTCs", "fmt": {           "len": 1,  "max": 1,     "unit": "offon"      }, "name": "MIL"},
     {"id": "SEQUOIA_NUMBER_OF_EMISSION_DTC",         "path": "DTCs", "fmt": {"bix": 1,  "len": 7,  "max": 127,   "unit": "scalar"     }, "name": "Number of emission DTC"},
@@ -1099,7 +1099,7 @@
     {"id": "SEQUOIA_COMM_WITH_AIR_CONDITIONER", "path": "Climate", "fmt": {"bix": 5, "len": 1, "max": 1, "unit": "offon"  }, "name": "Communication with air conditioner"},
     {"id": "SEQUOIA_COMM_WITH_VALVEMATIC_COMM", "path": "Climate", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "scalar" }, "name": "Communication with valvematic"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "25"}, "freq": 1, "dbgfilter": { "to": 2007, "years": [2009, 2010, 2011, 2012, 2014, 2015, 2016, 2017, 2018, 2019], "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "25"}, "freq": 1, "dbgfilter": { "to": 2007, "years": [2009, 2010, 2011, 2012, 2014, 2015, 2016, 2017, 2019], "from": 2021 },
   "signals": [
     {"id": "SEQUOIA_POWER_STEERING_SIGNAL",                   "path": "Control", "fmt": {"bix": 4,  "len": 1, "max": 1, "unit": "scalar" }, "name": "Power steering"},
     {"id": "SEQUOIA_STOP_LIGHT_SWITCH",                       "path": "Lights",  "fmt": {"bix": 5,  "len": 1, "max": 1, "unit": "scalar" }, "name": "Stop light"},
@@ -1120,7 +1120,7 @@
     {"id": "SEQUOIA_TC_TERMINAL",                             "path": "Control", "fmt": {"bix": 61, "len": 1, "max": 1, "unit": "scalar" }, "name": "TC"},
     {"id": "SEQUOIA_A_C_COMPRESSOR",                          "path": "Control", "fmt": {"bix": 64, "len": 1, "max": 1, "unit": "offon"  }, "name": "A/C compressor"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "28"}, "freq": 5, "filter": { "from": 2010 }, "dbgfilter": { "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019], "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "28"}, "freq": 5, "filter": { "from": 2010 }, "dbgfilter": { "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2019], "from": 2021 },
   "signals": [
     {"id": "SEQUOIA_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "nullmax": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
@@ -1214,7 +1214,7 @@
     {"id": "SEQUOIA_VARIABLE_VLV_TIM_OIL_1", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 399, "mul": 0.0061020829,                "unit": "percent" }, "name": "Variable valve timing oil control valve duty 1"},
     {"id": "SEQUOIA_VARIABLE_VLV_TIM_1",     "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 639, "mul": 0.0097642481,                "unit": "degrees" }, "name": "Variable valve timing change angle 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "45"}, "freq": 1, "dbgfilter": { "to": 2005, "years": [2007, 2009, 2010, 2011, 2012, 2014, 2015, 2016, 2017, 2018, 2019], "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "45"}, "freq": 1, "dbgfilter": { "to": 2005, "years": [2007, 2009, 2010, 2011, 2012, 2014, 2015, 2016, 2017, 2019], "from": 2021 },
   "signals": [
     {"id": "SEQUOIA_MISFIRE_RPM_7E0",           "path": "Engine",          "fmt": {"bix": 8,  "len": 8,  "max": 6375,               "mul": 25,                          "unit": "rpm"     }, "name": "Misfire RPM"},
     {"id": "SEQUOIA_MISFIRE_LOAD_7E0",          "path": "Engine.Misfires", "fmt": {"bix": 16, "len": 8,  "max": 3.98,               "mul": 4,  "div": 256,              "unit": "scalar"  }, "name": "Misfire load"},
@@ -1290,7 +1290,7 @@
     {"id": "SEQUOIA_G_SENS_CALIBRATION", "path": "Engine",       "fmt": {"bix": 2, "len": 1,  "max": 1,                             "unit": "scalar" }, "name": "G sensor calibration, complete"},
     {"id": "SEQUOIA_G_SENS_LEARNING",    "path": "Engine",       "fmt": {"bix": 8, "len": 16, "max": 79.998, "mul": 5, "div": 4096, "unit": "volts"  }, "name": "G sensor learning value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "85"}, "freq": 0.4, "filter": { "from": 2008 }, "dbgfilter": { "years": [2009, 2010, 2012, 2014, 2015, 2016, 2017, 2018, 2019], "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "85"}, "freq": 0.4, "filter": { "from": 2008 }, "dbgfilter": { "years": [2009, 2010, 2012, 2014, 2015, 2016, 2017, 2019], "from": 2021 },
   "signals": [
     {"id": "SEQUOIA_GEAR",       "path": "Transmission", "fmt": {          "len": 8, "max": 20, "unit": "scalar" }, "name": "Gear"},
     {"id": "SEQUOIA_TQC_LOCKUP", "path": "Transmission", "fmt": {"bix": 8, "len": 1, "max": 1,  "unit": "offon"  }, "name": "Torque converter lock-up", "description": "Engages a clutch inside the torque converter to create a direct connection between the engine and transmission, reducing slippage and improving efficiency."}

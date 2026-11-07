@@ -20,5 +20,8 @@ test_cases:
     7DF020100
     7E8064100BF9FE893
 - expected_values:
+    SEQUOIA_AIR_OUTLET_SERVO_PULSE_D: 9
+  response: 7CC03614309
+- expected_values:
     SEQUOIA_AIR_OUTLET_SERVO_PULSE_D: 97
   response: 7CC03614361
