@@ -7,5 +7,5 @@ test_cases:
     SEQUOIA_AAT_7C4: 5.05
   response: 7CC03612251
 - expected_values:
-    SEQUOIA_AAT_7C4: 16.95
-  response: 7CC03612273
+    SEQUOIA_AAT_7C4: 20.8
+  response: 7CC0361227E

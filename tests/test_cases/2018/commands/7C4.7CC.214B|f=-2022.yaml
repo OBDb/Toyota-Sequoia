@@ -4,5 +4,5 @@ test_cases:
     SEQUOIA_EVAP_FIN_THERMISTOR: -1
   response: 7CC03614B52
 - expected_values:
-    SEQUOIA_EVAP_FIN_THERMISTOR: 18.6
-  response: 7CC03614B8A
+    SEQUOIA_EVAP_FIN_THERMISTOR: 24.55
+  response: 7CC03614B9B

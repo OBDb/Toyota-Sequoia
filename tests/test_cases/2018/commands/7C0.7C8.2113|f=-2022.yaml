@@ -1,0 +1,23 @@
+command_id: 7C0.7C8.2113|f=-2022
+test_cases:
+- expected_values:
+    SEQUOIA_BAT_V: 12
+  response: 7C803611378
+- expected_values:
+    SEQUOIA_BAT_V: 12.1
+  response: 7C803611379
+- expected_values:
+    SEQUOIA_BAT_V: 13
+  response: 7C803611382
+- expected_values:
+    SEQUOIA_BAT_V: 13.1
+  response: 7C803611383
+- expected_values:
+    SEQUOIA_BAT_V: 13.2
+  response: 7C803611384
+- expected_values:
+    SEQUOIA_BAT_V: 13.3
+  response: 7C803611385
+- expected_values:
+    SEQUOIA_BAT_V: 13.4
+  response: 7C803611386

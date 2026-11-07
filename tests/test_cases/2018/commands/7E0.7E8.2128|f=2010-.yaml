@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2128|f=2010-
+test_cases:
+- expected_values:
+    SEQUOIA_ODO: 95247
+  response: 7E805612801740F
+- expected_values:
+    SEQUOIA_ODO: 95277
+  response: 7E805612801742D

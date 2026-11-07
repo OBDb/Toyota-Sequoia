@@ -9,6 +9,9 @@ test_cases:
     2129
     7CC03612926
 - expected_values:
+    SEQUOIA_T_DRIVER: 32
+  response: 7CC03612920
+- expected_values:
     SEQUOIA_T_DRIVER: 34
   response: 7CC03612922
 - expected_values:
