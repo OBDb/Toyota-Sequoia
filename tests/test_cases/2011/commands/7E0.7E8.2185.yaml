@@ -1,4 +1,4 @@
-command_id: 7E0.7E8.2185|f=2008-
+command_id: 7E0.7E8.2185
 test_cases:
 - expected_values:
     SEQUOIA_GEAR: 1
