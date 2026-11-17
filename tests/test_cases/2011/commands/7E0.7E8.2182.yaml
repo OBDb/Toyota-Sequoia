@@ -1,4 +1,4 @@
-command_id: 7E0.7E8.2182|f=2008-
+command_id: 7E0.7E8.2182
 test_cases:
 - expected_values:
     SEQUOIA_ATF_PAN_T: 77.5
