@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2128|f=2010-
+test_cases:
+- expected_values:
+    SEQUOIA_ODO: 385750
+  response: 7E805612805E2D6

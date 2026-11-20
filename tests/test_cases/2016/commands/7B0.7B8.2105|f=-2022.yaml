@@ -1,0 +1,34 @@
+command_id: 7B0.7B8.2105|f=-2022
+test_cases:
+- expected_values:
+    SEQUOIA_DECEL: -1.06941
+    SEQUOIA_DECEL_2: -17.75224
+  response: 7B807610578036EFE94
+- expected_values:
+    SEQUOIA_DECEL: -0.35647
+    SEQUOIA_DECEL_2: -17.60965
+  response: 7B80761057D045F0419
+- expected_values:
+    SEQUOIA_DECEL: -0.21388
+    SEQUOIA_DECEL_2: -17.46706
+  response: 7B80761057E05220974
+- expected_values:
+    SEQUOIA_DECEL: -0.07129
+    SEQUOIA_DECEL_2: -17.89482
+  response: 7B80761057F02B1FD52
+- expected_values:
+    SEQUOIA_DECEL: -0.07129
+    SEQUOIA_DECEL_2: -17.89482
+  response: 7B80761057F02F9FDE0
+- expected_values:
+    SEQUOIA_DECEL: -0.07129
+    SEQUOIA_DECEL_2: -17.75224
+  response: 7B80761057F0321FE2C
+- expected_values:
+    SEQUOIA_DECEL: -0.07129
+    SEQUOIA_DECEL_2: -17.75224
+  response: 7B80761057F0382FEE8
+- expected_values:
+    SEQUOIA_DECEL: 0.07129
+    SEQUOIA_DECEL_2: -17.89482
+  response: 7B80761058002AD0194

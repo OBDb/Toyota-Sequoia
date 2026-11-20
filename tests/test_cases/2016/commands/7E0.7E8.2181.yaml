@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.2181
+test_cases:
+- expected_values:
+    SEQUOIA_SPD_NT: 300
+  response: '7E80461810600'
+- expected_values:
+    SEQUOIA_SPD_NT: 650
+  response: 7E80461810D00
+- expected_values:
+    SEQUOIA_SPD_NT: 700
+  response: 7E80461810E00
+- expected_values:
+    SEQUOIA_SPD_NT: 750
+  response: 7E80461810F00
+- expected_values:
+    SEQUOIA_SPD_NT: 800
+  response: '7E80461811000'
+- expected_values:
+    SEQUOIA_SPD_NT: 850
+  response: '7E80461811100'
+- expected_values:
+    SEQUOIA_SPD_NT: 900
+  response: 7E8046181120F
+- expected_values:
+    SEQUOIA_SPD_NT: 950
+  response: 7E8046181132E
+- expected_values:
+    SEQUOIA_SPD_NT: 1300
+  response: 7E80461811A20

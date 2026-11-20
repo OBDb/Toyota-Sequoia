@@ -1,0 +1,17 @@
+command_id: 7C0.7C8.2129|f=-2022
+test_cases:
+- expected_values:
+    SEQUOIA_FLI_VOL: 7.79392
+  response: 7C80361293B
+- expected_values:
+    SEQUOIA_FLI_VOL: 8.32232
+  response: 7C80361293F
+- expected_values:
+    SEQUOIA_FLI_VOL: 8.71863
+  response: 7C803612942
+- expected_values:
+    SEQUOIA_FLI_VOL: 8.85073
+  response: 7C803612943
+- expected_values:
+    SEQUOIA_FLI_VOL: 9.51123
+  response: 7C803612948

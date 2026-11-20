@@ -1,0 +1,30 @@
+command_id: 7B0.7B8.2106|f=-2022
+test_cases:
+- expected_values:
+    SEQUOIA_YAW_1: -5
+    SEQUOIA_YAW_2: -13
+  response: 7B80561067B730D
+- expected_values:
+    SEQUOIA_YAW_1: -3
+    SEQUOIA_YAW_2: -13
+  response: 7B80561067D73B2
+- expected_values:
+    SEQUOIA_YAW_1: -2
+    SEQUOIA_YAW_2: -7
+  response: 7B80561067E79CA
+- expected_values:
+    SEQUOIA_YAW_1: -1
+    SEQUOIA_YAW_2: -13
+  response: 7B80561067F731C
+- expected_values:
+    SEQUOIA_YAW_1: 0
+    SEQUOIA_YAW_2: -30
+  response: 7B80561068062C3
+- expected_values:
+    SEQUOIA_YAW_1: 0
+    SEQUOIA_YAW_2: -30
+  response: 7B80561068062D2
+- expected_values:
+    SEQUOIA_YAW_1: 0
+    SEQUOIA_YAW_2: -12
+  response: 7B8056106807448
