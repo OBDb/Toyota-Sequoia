@@ -1,0 +1,26 @@
+command_id: 7C4.7CC.214B|f=-2022
+test_cases:
+- expected_values:
+    SEQUOIA_EVAP_FIN_THERMISTOR: 13.7
+  response: 7CC03614B7C
+- expected_values:
+    SEQUOIA_EVAP_FIN_THERMISTOR: 14.05
+  response: 7CC03614B7D
+- expected_values:
+    SEQUOIA_EVAP_FIN_THERMISTOR: 14.4
+  response: 7CC03614B7E
+- expected_values:
+    SEQUOIA_EVAP_FIN_THERMISTOR: 15.1
+  response: 7CC03614B80
+- expected_values:
+    SEQUOIA_EVAP_FIN_THERMISTOR: 15.45
+  response: 7CC03614B81
+- expected_values:
+    SEQUOIA_EVAP_FIN_THERMISTOR: 15.8
+  response: 7CC03614B82
+- expected_values:
+    SEQUOIA_EVAP_FIN_THERMISTOR: 16.15
+  response: 7CC03614B83
+- expected_values:
+    SEQUOIA_EVAP_FIN_THERMISTOR: 16.5
+  response: 7CC03614B84

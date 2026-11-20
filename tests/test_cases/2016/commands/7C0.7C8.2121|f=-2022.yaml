@@ -1,0 +1,17 @@
+command_id: 7C0.7C8.2121|f=-2022
+test_cases:
+- expected_values:
+    SEQUOIA_VSS_7C0: 0
+  response: 7C803612100
+- expected_values:
+    SEQUOIA_VSS_7C0: 17
+  response: 7C803612111
+- expected_values:
+    SEQUOIA_VSS_7C0: 33
+  response: 7C803612121
+- expected_values:
+    SEQUOIA_VSS_7C0: 40
+  response: 7C803612128
+- expected_values:
+    SEQUOIA_VSS_7C0: 47
+  response: 7C80361212F

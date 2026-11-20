@@ -1,0 +1,22 @@
+command_id: 7E0.7E8.2182
+test_cases:
+- expected_values:
+    SEQUOIA_ATF_PAN_T: 32.5
+    SEQUOIA_ATF_TQC_T: 30
+  response: '7E806618248804600'
+- expected_values:
+    SEQUOIA_ATF_PAN_T: 33.75
+    SEQUOIA_ATF_TQC_T: 31.875
+  response: 7E806618249C047E0
+- expected_values:
+    SEQUOIA_ATF_PAN_T: 35
+    SEQUOIA_ATF_TQC_T: 32.5
+  response: 7E80661824B004880
+- expected_values:
+    SEQUOIA_ATF_PAN_T: 46.875
+    SEQUOIA_ATF_TQC_T: 46.25
+  response: 7E806618256E05640
+- expected_values:
+    SEQUOIA_ATF_PAN_T: 48.75
+    SEQUOIA_ATF_TQC_T: 48.75
+  response: 7E806618258C058C0

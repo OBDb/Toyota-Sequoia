@@ -1,0 +1,47 @@
+command_id: 7B0.7B8.2147|f=-2022
+test_cases:
+- expected_values:
+    SEQUOIA_LAT_G: 0
+    SEQUOIA_LNG_G: 2.5
+    SEQUOIA_YAW_RATE: -2
+  response: 7B8066147007E7EB6
+- expected_values:
+    SEQUOIA_LAT_G: 0
+    SEQUOIA_LNG_G: 2.5
+    SEQUOIA_YAW_RATE: 5
+  response: 7B8066147007E8555
+- expected_values:
+    SEQUOIA_LAT_G: 0
+    SEQUOIA_LNG_G: -2.5
+    SEQUOIA_YAW_RATE: -18
+  response: 7B806614700806E7B
+- expected_values:
+    SEQUOIA_LAT_G: 0
+    SEQUOIA_LNG_G: -2.5
+    SEQUOIA_YAW_RATE: -18
+  response: 7B806614700806E8A
+- expected_values:
+    SEQUOIA_LAT_G: -0.1
+    SEQUOIA_LNG_G: 2.46
+    SEQUOIA_YAW_RATE: -2
+  response: 7B8066147FB7B7EC5
+- expected_values:
+    SEQUOIA_LAT_G: -0.08
+    SEQUOIA_LNG_G: 2.5
+    SEQUOIA_YAW_RATE: -1
+  response: 7B8066147FC7D7F6A
+- expected_values:
+    SEQUOIA_LAT_G: -0.02
+    SEQUOIA_LNG_G: -2.5
+    SEQUOIA_YAW_RATE: -18
+  response: 7B8066147FF806E7B
+- expected_values:
+    SEQUOIA_LAT_G: -0.02
+    SEQUOIA_LNG_G: -2.5
+    SEQUOIA_YAW_RATE: -18
+  response: 7B8066147FF806E8A
+- expected_values:
+    SEQUOIA_LAT_G: -0.02
+    SEQUOIA_LNG_G: -2.5
+    SEQUOIA_YAW_RATE: -1
+  response: 7B8066147FF807FE2

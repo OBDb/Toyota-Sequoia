@@ -1,0 +1,12 @@
+command_id: 7E0.7E8.21E1
+test_cases:
+- expected_values:
+    SEQUOIA_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E100000336
+    7E821200009EB000000
+- expected_values:
+    SEQUOIA_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E100000336
+    7E82120000E7E000000
