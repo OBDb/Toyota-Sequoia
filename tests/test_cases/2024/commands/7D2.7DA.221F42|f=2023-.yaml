@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     SEQUOIA_12V_BAT_V_SMOOTHED: 14.316
   response: 7DA05621F4237EC
+- expected_values:
+    SEQUOIA_12V_BAT_V_SMOOTHED: 14.321
+  response: 7DA05621F4237F1
