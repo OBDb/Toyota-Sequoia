@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     SEQUOIA_INTERCOOLER_WATER: 0
   response: '708056228200000'
+- expected_values:
+    SEQUOIA_INTERCOOLER_WATER: 35.40703
+  response: 7080562282016A9
+- expected_values:
+    SEQUOIA_INTERCOOLER_WATER: 58.25284
+  response: '708056228202548'
+- expected_values:
+    SEQUOIA_INTERCOOLER_WATER: 65.08888
+  response: 7080562282029A8
