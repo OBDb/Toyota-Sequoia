@@ -1,0 +1,8 @@
+command_id: 7D2.7DA.221002|f=2023-
+test_cases:
+- expected_values:
+    SEQUOIA_AUX_BAT_V: 11.51192
+  response: 7DA0562100224DC
+- expected_values:
+    SEQUOIA_AUX_BAT_V: 11.75104
+  response: 7DA0562100225A0
