@@ -10,6 +10,9 @@ test_cases:
     SEQUOIA_AUX_BAT_V: 14.28864
   response: 7DA056210022DC0
 - expected_values:
+    SEQUOIA_AUX_BAT_V: 14.2984
+  response: 7DA056210022DC8
+- expected_values:
     SEQUOIA_AUX_BAT_V: 14.31304
   response: 7DA056210022DD4
 - expected_values:

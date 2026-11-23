@@ -4,5 +4,8 @@ test_cases:
     SEQUOIA_12V_BAT_V_BEFORE_SMR: 11.2927
   response: 7DA0562107E23F0
 - expected_values:
+    SEQUOIA_12V_BAT_V_BEFORE_SMR: 11.29392
+  response: 7DA0562107E24B0
+- expected_values:
     SEQUOIA_12V_BAT_V_BEFORE_SMR: 11.29514
   response: 7DA0562107E2510

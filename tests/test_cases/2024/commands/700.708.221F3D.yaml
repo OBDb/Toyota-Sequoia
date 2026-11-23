@@ -4,6 +4,9 @@ test_cases:
     SEQUOIA_CAT_T_BANK_2_SENS_1: 168.62
   response: 70805621F3D0487
 - expected_values:
+    SEQUOIA_CAT_T_BANK_2_SENS_1: 244.04
+  response: 70805621F3D062A
+- expected_values:
     SEQUOIA_CAT_T_BANK_2_SENS_1: 245.3
   response: 70805621F3D0631
 - expected_values:
