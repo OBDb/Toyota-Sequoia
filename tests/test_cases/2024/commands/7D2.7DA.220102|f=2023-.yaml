@@ -1,0 +1,7 @@
+command_id: 7D2.7DA.220102|f=2023-
+test_cases:
+- expected_values:
+    SEQUOIA_KEY_CYCLE: 7771
+  response: |-
+    7DA100A6201021E5B00
+    7DA2100754F01000000

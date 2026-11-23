@@ -1,0 +1,5 @@
+command_id: 7D2.7DA.221039|f=2023-
+test_cases:
+- expected_values:
+    SEQUOIA_FRONT_REAR_MOTOR_TQ: -32.608
+  response: 7DA07621039033300A0
