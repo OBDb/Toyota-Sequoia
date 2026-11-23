@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     SEQUOIA_FRONT_REAR_MOTOR_TQ: -32.608
   response: 7DA07621039033300A0
+- expected_values:
+    SEQUOIA_FRONT_REAR_MOTOR_TQ: -29.076
+  response: 7DA0762103923330E6C
+- expected_values:
+    SEQUOIA_FRONT_REAR_MOTOR_TQ: -29.055
+  response: 7DA0762103923330E81

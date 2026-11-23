@@ -1,5 +1,11 @@
 command_id: 700.708.221F3D
 test_cases:
 - expected_values:
+    SEQUOIA_CAT_T_BANK_2_SENS_1: 168.62
+  response: 70805621F3D0487
+- expected_values:
+    SEQUOIA_CAT_T_BANK_2_SENS_1: 245.3
+  response: 70805621F3D0631
+- expected_values:
     SEQUOIA_CAT_T_BANK_2_SENS_1: 1234.04
   response: 70805621F3D1BA6

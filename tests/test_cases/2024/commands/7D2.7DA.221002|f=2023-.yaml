@@ -6,3 +6,12 @@ test_cases:
 - expected_values:
     SEQUOIA_AUX_BAT_V: 11.75104
   response: 7DA0562100225A0
+- expected_values:
+    SEQUOIA_AUX_BAT_V: 14.28864
+  response: 7DA056210022DC0
+- expected_values:
+    SEQUOIA_AUX_BAT_V: 14.31304
+  response: 7DA056210022DD4
+- expected_values:
+    SEQUOIA_AUX_BAT_V: 14.33256
+  response: 7DA056210022DE4

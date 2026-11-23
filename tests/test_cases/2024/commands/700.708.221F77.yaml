@@ -1,6 +1,16 @@
 command_id: 700.708.221F77
 test_cases:
 - expected_values:
+    SEQUOIA_IAT_B1S1: 38
+  response: |-
+    7081008621F77014E00
+    7082100000000000000
+- expected_values:
+    SEQUOIA_IAT_B1S1: 40
+  response: |-
+    7081008621F77015000
+    7082100000000000000
+- expected_values:
     SEQUOIA_IAT_B1S1: 44
   response: |-
     7081008621F77015400
